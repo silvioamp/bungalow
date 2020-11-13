@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url("fonts/Nunito-Black.ttf");
+}
+
+*{
+    box-sizing: border-box;
+    color: #FFF;  
+
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: table;
+    background-position: center center;
+    background-image: url('img/fundo-header.png');
+    font-size: 1em;
+}
+
+header .container .row ul{
+    color: white;
+    list-style: none;
+}
+
+header .container .row li{
+    display: inline;
+}
+header .container nav ul li a{
+    padding: 2px 10px;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    margin:20px;
+}
+
+#logo{
+    margin: 27px;
+}
+
+.retangulo{
+   width: 1238px;
+   height: 100px;
+   background-color: #638755;
+   border-radius: 25px;
+}
+
+#barra-vegan{
+    background-color: #638755;
+    width:100%;
+    height: 345px;
+}
+
+footer{
+    width:100%;
+    height: 316px;
+    background-color: #638755;
+}
+
