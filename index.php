@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min">
-	<link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+    
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
     <title>Bungalow</title>
 </head>
 <header>
@@ -16,20 +19,23 @@
             </div>
             <div class="col-8">
                 <nav>
-                    <ul>
-                        <li><a href="#">Quem somos</a></li>
-                        <li><a href="#">Cardápio</a></li>
-                        <li><a href="#">Fotos</a></li>
-                        <li><a href="#">Contato</a></li>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a href="#">Quem somos</a></li>
+                        <li class="nav-item"><a href="#">Cardápio</a></li>
+                        <li class="nav-item"><a href="#">Fotos</a></li>
+                        <li class="nav-item"><a href="#">Contato</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="col">Logo</div>
-			<div class="col">redes</div>
+            <div class="col">Goomer</i></div>
+			<div class="col">
+			<i class="fab fa-facebook-square sociais"></i>
+			<i class="fab fa-instagram sociais"></i>
+			</div>
 		</div>
         <div class="row">
             <div class="col"></div>
-            <div class="col"><img src="img/logo-casa"></div>         
+            <div class="col logo-casa"><img src="img/logo-casa"></div>         
             <div class="col"></div>
         </div>
         <div class="row">
@@ -46,12 +52,12 @@
 			<div class="col"><p>PLANTED-BASE SUSHI</p></div>
 			<div class="col"></div>
 		</div>
-        <div class="row retangulo">
+        <div class="row card retangulo">
 			
 				<div class="col">Peça pelo What's</div>
 				<div class="col">Peça pelo Goomer</div>
 				<div class="col">Funcionamento</div>
-			
+				
 		</div>
     </div>
 
@@ -63,20 +69,27 @@
 	</article>
 </section>
 </div>
-<div id=barra-vegan>
+<div class="card">
 	<div class="container">
 		<div class="row">
-			<div class="col-3">
-				<figure><img src="img/icon-world" alt="our planet"></figure>
+			<div class="col-4"></div>
+			<div class="col-4"><h2 class="justify-content-center">Vegan for</h2></div>
+			<div class="col-4">
+		</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-3 card-body">
+				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-world" alt="our planet"></figure>
 			</div>
-			<div class="col-3">
-				<figure><img src="img/icon-heart" alt="compassion"></figure>
+			<div class="col-3 card-body">
+				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-heart" alt="compassion"></figure>
 			</div>
-			<div class="col-3">
-				<figure><img src="img/icon-health" alt="our health"></figure>
+			<div class="col-3 card-body">
+				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-health" alt="our health"></figure>
 			</div>
-			<div class="col-3">
-				<figure><img src="img/icon-animal" alt="the animals"></figure>
+			<div class="col-3 card-body">
+				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-animal" alt="the animals"></figure>
 			</div>
 		</div>
 	</div>
@@ -122,7 +135,8 @@
 	</div>
 </footer>
 
-<script src="bootstrap/js/bootstrap.min"></script>
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>
