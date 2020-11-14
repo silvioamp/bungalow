@@ -45,8 +45,8 @@ header .container nav ul li a{
     margin-left: auto;
     margin-right: auto;
 }
-i.sociais{
-    font-size: 2%;
+.sociais{
+    font-size: 16px;
 }
 
 
@@ -67,6 +67,30 @@ footer{
     width:100%;
     height: 316px;
     background-color: #638755;
+}
+h3{
+    font-family: "Nunito bold";
+    color:#638755;
+    font-size: 24px;
+    padding-top:30%;
+    padding-right: 10%;
+    text-align: left;
+
+}
+
+p{
+    font-size: 16px;
+    color:#737373;
+    padding-top: 5%;
+    padding-right: 20%;
+}
+
+strong{
+    color: #737373;
+}
+
+.imagem-front{
+    margin-bottom:15%;
 }
 
 .card{

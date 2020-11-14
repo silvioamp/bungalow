@@ -30,7 +30,7 @@
             <div class="col">Goomer</i></div>
 			<div class="col">
 			<i class="fab fa-facebook-square sociais"></i>
-			<i class="fab fa-instagram sociais"></i>
+			<i class="fab fa-instagram"></i>
 			</div>
 		</div>
         <div class="row">
@@ -54,23 +54,39 @@
 		</div>
         <div class="row card retangulo">
 			
-				<div class="col">Peça pelo What's</div>
-				<div class="col">Peça pelo Goomer</div>
-				<div class="col">Funcionamento</div>
+				<div class="col-4">Peça pelo What's</div>
+				<div class="col-4">Peça pelo Goomer</div>
+				<div class="col-4">Funcionamento</div>
 				
 		</div>
     </div>
 
 </header>
+
 <div class="container">
 <section>
 	<article>
-		TEXTO
+		<div class="row">
+			<div class="col-6">
+			<h3>
+				Somos uma casa pequena e aconchegante, mas nossa vontade de crescer é tão grando quanto nosso propósito
+			</h3>
+			<p>Com identidade um tanto rústica, com raízes na praia ou em lugares que têm conexão com a natureza, nasceu o <strong>Bungalow Plant-Based Sushi</strong>. O primeiro capítulo de nossa história começa na cidade de Santos, mas em breve nos veremos pelo Brasil!</p>
+		
+			<a href="#">Saiba mais sobre a gente</a>
+			</div>
+			<div class="col-6">
+				<figure>
+					<img class="imagem-front" src="img/img-sushi.png">
+				</figure>
+			</div>
+		</div>
 	</article>
+	
 </section>
 </div>
 <div class="card">
-	<div class="container">
+	<div class="container"> 
 		<div class="row">
 			<div class="col-4"></div>
 			<div class="col-4"><h2 class="justify-content-center">Vegan for</h2></div>
