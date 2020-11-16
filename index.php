@@ -71,13 +71,13 @@
 			<h3>
 				Somos uma casa pequena e aconchegante, mas nossa vontade de crescer é tão grando quanto nosso propósito
 			</h3>
-			<p>Com identidade um tanto rústica, com raízes na praia ou em lugares que têm conexão com a natureza, nasceu o <strong>Bungalow Plant-Based Sushi</strong>. O primeiro capítulo de nossa história começa na cidade de Santos, mas em breve nos veremos pelo Brasil!</p>
+			<p class="txt-principal">Com identidade um tanto rústica, com raízes na praia ou em lugares que têm conexão com a natureza, nasceu o <strong>Bungalow Plant-Based Sushi</strong>. O primeiro capítulo de nossa história começa na cidade de Santos, mas em breve nos veremos pelo Brasil!</p>
 		
 			<a href="#">Saiba mais sobre a gente</a>
 			</div>
 			<div class="col-6">
-				<figure>
-					<img class="imagem-front" src="img/img-sushi.png">
+				<figure class="figure" >
+					<img class="imagem-front img-fluid" src="img/img-sushi.png">
 				</figure>
 			</div>
 		</div>
