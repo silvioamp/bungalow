@@ -14,49 +14,49 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-sm-2">
                 <img id=logo src="img/logo-bungalow">
             </div>
-            <div class="col-8">
+            <div class="col-sm-6">
                 <nav>
                     <ul class="nav justify-content-center">
-                        <li class="nav-item"><a href="#">Quem somos</a></li>
-                        <li class="nav-item"><a href="#">Cardápio</a></li>
-                        <li class="nav-item"><a href="#">Fotos</a></li>
-                        <li class="nav-item"><a href="#">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Quem somos</a></li>
+                        <li class="nav-item"><a  class="nav-link active" href="#">Cardápio</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Fotos</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Contato</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="col">Goomer</i></div>
-			<div class="col">
+            <div class="col-sm-2"><span class="yellow">Peça agora!</span><img class="icone"src="img/googmer@2x.png"></div>
+			<div class="col-sm-2">
 			<i class="fab fa-facebook-square sociais"></i>
 			<i class="fab fa-instagram"></i>
 			</div>
 		</div>
         <div class="row">
             <div class="col"></div>
-            <div class="col logo-casa"><img src="img/logo-casa"></div>         
+            <div class="col logo-casa text-center"><img src="img/logo-casa"></div>         
             <div class="col"></div>
         </div>
         <div class="row">
             <div class="col"></div>         
             <div class="col">
-                <h1>Fresh, Vegan</h1>
-                <h1>& Delicious!</h1>
+                <h1 class="frase-principal text-center">Fresh, Vegan</h1>
+                <h1 class="frase-principal text-center">& Delicious!</h1>
             </div>
             <div class="col"></div>
             
         </div>
         <div class="row">
-			<div class="col"></div>
-			<div class="col"><p>PLANTED-BASE SUSHI</p></div>
-			<div class="col"></div>
+			<div class="col-md-4"></div>
+			<div class="col-md-4"><p class="text-center">PLANTED-BASE SUSHI</p></div>
+			<div class="col-md-4"></div>
 		</div>
-        <div class="row card retangulo">
+        <div class="row retangulo">
 			
-				<div class="col-4">Peça pelo What's</div>
-				<div class="col-4">Peça pelo Goomer</div>
-				<div class="col-4">Funcionamento</div>
+				<div class="col-md-4 teste text-center"><i class="fab fa-whatsapp yellow"></i><span>Peça pelo What's</span><span> (00) 0000-000</span></div>
+				<div class="col-md-4 teste text-center"><i class="fas fa-mobile-alt yellow"></i></span>Peça pelo Goomer</span><span><img src="img/googmer.png"></span></div>
+				<div class="col-md-4 teste text-center"><i class="far fa-clock yellow"></i></span>Funcionamento</span><span>Ter -Dom | 18h às 23h</span></div>
 				
 		</div>
     </div>
@@ -67,15 +67,16 @@
 <section>
 	<article>
 		<div class="row">
-			<div class="col-6">
+			<div class="col-md-6">
 			<h3>
 				Somos uma casa pequena e aconchegante, mas nossa vontade de crescer é tão grando quanto nosso propósito
 			</h3>
 			<p class="txt-principal">Com identidade um tanto rústica, com raízes na praia ou em lugares que têm conexão com a natureza, nasceu o <strong>Bungalow Plant-Based Sushi</strong>. O primeiro capítulo de nossa história começa na cidade de Santos, mas em breve nos veremos pelo Brasil!</p>
 		
 			<a href="#">Saiba mais sobre a gente</a>
+			<hr>
 			</div>
-			<div class="col-6">
+			<div class="col-md-6">
 				<figure class="figure" >
 					<img class="imagem-front img-fluid" src="img/img-sushi.png">
 				</figure>
@@ -88,23 +89,23 @@
 <div class="card">
 	<div class="container"> 
 		<div class="row">
-			<div class="col-4"></div>
-			<div class="col-4"><h2 class="justify-content-center">Vegan for</h2></div>
-			<div class="col-4">
+			<div class="col-md-4"></div>
+			<div class="col-md-4"><h2 class="justify-content-center">Vegan for</h2></div>
+			<div class="col-md-4">
 		</div>
 			
 		</div>
 		<div class="row">
-			<div class="col-3 card-body">
+			<div class="col-md-3 card-body">
 				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-world" alt="our planet"></figure>
 			</div>
-			<div class="col-3 card-body">
+			<div class="col-md-3 card-body">
 				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-heart" alt="compassion"></figure>
 			</div>
-			<div class="col-3 card-body">
+			<div class="col-md-3 card-body">
 				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-health" alt="our health"></figure>
 			</div>
-			<div class="col-3 card-body">
+			<div class="col-md-3 card-body">
 				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-animal" alt="the animals"></figure>
 			</div>
 		</div>
@@ -113,15 +114,15 @@
 <div class="container">
 <div id=cardapio>
 	<nav>	
-		<ul>
-			<li><a href="#">Entradas</a></li>
-			<li><a href="#">Hot Roll</a></li>
-			<li><a href="#">Combinados</a></li>
-			<li><a href="#">Temakis</a></li>
-			<li><a href="#">Niguiris</a></li>
-			<li><a href="#">Uramakis e outros</a></li>
-			<li><a href="#">Joy's</a></li>
-			<li><a href="#">Bebidas</a></li>
+		<ul class="nav justify-content-center">
+			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Entradas</a></li>
+			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Hot Roll</a></li>
+			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Combinados</a></li>
+			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Temakis</a></li>
+			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Niguiris</a></li>
+			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Uramakis e outros</a></li>
+			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Joy's</a></li>
+			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Bebidas</a></li>
 		</ul>
 	</nav>
 </div>
@@ -135,18 +136,18 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col">
+			<div class="col-md-4">
 				<div class="row">
 					<div class="col">contato</div>
 					<div class="col">contato</div>
 					<div class="col">contato</div>
 				</div>
 			</div>
-			<div class="col">
+			<div class="col-md-4">
 
 				<p>Seja bem vindo(a) ao nosso <strong>Bungalow</strong> e bom apetite</p>
 			</div>
-			<div class="col"></div>
+			<div class="col-md-4 "></div>
 		</div>
 	</div>
 </footer>

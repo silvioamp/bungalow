@@ -18,6 +18,7 @@ header{
     background-position: center center;
     background-image: url('img/fundo-header.png');
     font-size: 1em;
+    position: relative;
 }
 
 header .container .row ul{
@@ -49,10 +50,26 @@ header .container nav ul li a{
     font-size: 16px;
 }
 
+h1 .frase-princial{
+    text-align: justify;
+}
+
+.icone{
+   width: 100px;
+   height: auto;
+    
+}
+
+.teste{
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+.yellow{
+    color:#FFCC5A;
+}
 
 .retangulo{
- /*  width: 1238px;*/
-   height: 800px;
+   height: 30%;
    background-color: #638755;
    border-radius: 25px;
 }
@@ -61,6 +78,9 @@ header .container nav ul li a{
     background-color: #638755;
     width:100%;
     height: 345px;
+}
+span{
+    display: block;
 }
 
 footer{
@@ -95,15 +115,27 @@ strong{
 
 .card{
     background-color: #638755;
-    height: 345px;
+    height: 20%;
 }
 
 figure{
     margin-top: 15%;
 }
+#galeria{
+background-color: #FFF5E4;
+}
+
+
 h2{
    color:#FFCC5A;
    text-align: center;
    padding-top: 10%;
+}
+
+hr{
+    widows: 10px;
+}
+.menu-secundario{
+    color: #717171;
 }
 
