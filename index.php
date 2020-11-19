@@ -27,34 +27,41 @@
                     </ul>
                 </nav>
             </div>
-            <div class="col-sm-2"><span class="yellow">Peça agora!</span><img class="icone"src="img/googmer@2x.png"></div>
+            <div class="col-sm-2">
+				<div id="cubo">
+					<span class="yellow text-center">Peça agora!</span>
+					<img class="icone" src="img/googmer@2x.png">
+				</div>
+			</div>
 			<div class="col-sm-2">
-			<i class="fab fa-facebook-square sociais"></i>
-			<i class="fab fa-instagram"></i>
+			
+			<i class="fab fa-facebook-square fa-2x sociais"></i>
+			<i class="fab fa-instagram fa-2x sociais"></i>
+			
 			</div>
 		</div>
         <div class="row">
             <div class="col"></div>
-            <div class="col logo-casa text-center"><img src="img/logo-casa"></div>         
+            <div class="col text-center"><img src="img/logo-casa"></div>         
             <div class="col"></div>
         </div>
-        <div class="row">
+        <div class="row espaco">
             <div class="col"></div>         
             <div class="col">
-                <h1 class="frase-principal text-center">Fresh, Vegan</h1>
-                <h1 class="frase-principal text-center">& Delicious!</h1>
+                <h1 class="text-center fonte-site">Fresh, Vegan</h1>
+                <h1 class="text-center fonte-site">& Delicious!</h1>
             </div>
             <div class="col"></div>
             
         </div>
-        <div class="row">
+        <div class="row ">
 			<div class="col-md-4"></div>
 			<div class="col-md-4"><p class="text-center">PLANTED-BASE SUSHI</p></div>
 			<div class="col-md-4"></div>
 		</div>
         <div class="row retangulo">
 			
-				<div class="col-md-4 teste text-center"><i class="fab fa-whatsapp yellow"></i><span>Peça pelo What's</span><span> (00) 0000-000</span></div>
+				<div class="col-md-4 teste text-center"><i class="fab fa-whatsapp yellow"></i><span>Peça pelo What's</span><span>(00) 0000-000</span></div>
 				<div class="col-md-4 teste text-center"><i class="fas fa-mobile-alt yellow"></i></span>Peça pelo Goomer</span><span><img src="img/googmer.png"></span></div>
 				<div class="col-md-4 teste text-center"><i class="far fa-clock yellow"></i></span>Funcionamento</span><span>Ter -Dom | 18h às 23h</span></div>
 				
@@ -112,42 +119,51 @@
 	</div>
 </div>
 <div class="container">
-<div id=cardapio>
-	<nav>	
-		<ul class="nav justify-content-center">
-			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Entradas</a></li>
-			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Hot Roll</a></li>
-			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Combinados</a></li>
-			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Temakis</a></li>
-			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Niguiris</a></li>
-			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Uramakis e outros</a></li>
-			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Joy's</a></li>
-			<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Bebidas</a></li>
-		</ul>
-	</nav>
+	<div id=cardapio>
+		<nav>	
+			<ul class="nav justify-content-center">
+				<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Entradas</a></li>
+				<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Hot Roll</a></li>
+				<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Combinados</a></li>
+				<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Temakis</a></li>
+				<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Niguiris</a></li>
+				<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Uramakis e outros</a></li>
+				<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Joy's</a></li>
+				<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Bebidas</a></li>
+			</ul>
+		</nav>
+
+	</div>	
 </div>
 <div id="galeria">
 	<picture>
 		galeria
 	</picture>
 </div>
-</div>
-
 <footer>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
 				<div class="row">
-					<div class="col">contato</div>
-					<div class="col">contato</div>
-					<div class="col">contato</div>
+					<div class="col"><span>Contato</span><span>(00) 0000-000</span></div>
+				</div>
+				<div class="row">
+					<div class="col"><span>Funcionamento</span><span>Ter - Dom | 18h às 23h</span></div>
+				</div>			
+				<div class="row">	
+					<div class="col"><span>Peça pelo What's</span><span>(00)0000-000</span></div>
 				</div>
 			</div>
 			<div class="col-md-4">
-
-				<p>Seja bem vindo(a) ao nosso <strong>Bungalow</strong> e bom apetite</p>
+				<img class="text-center" src="img/casa-yellow.png">
+				<p class="text-center">Seja bem vindo(a) ao nosso <strong>Bungalow</strong> e bom apetite</p>
 			</div>
-			<div class="col-md-4 "></div>
+			<div class="col-md-4 ">
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-instagram"></i>
+
+			</div>
 		</div>
 	</div>
 </footer>

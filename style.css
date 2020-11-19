@@ -47,11 +47,13 @@ header .container nav ul li a{
     margin-right: auto;
 }
 .sociais{
-    font-size: 16px;
+    margin-top: 8%;
+    margin-left: 5%;
 }
 
-h1 .frase-princial{
-    text-align: justify;
+.fonte-site{
+   font-size: 370%;
+   font-family: 'Nunito', sans-serif; ;
 }
 
 .icone{
@@ -67,11 +69,22 @@ h1 .frase-princial{
 .yellow{
     color:#FFCC5A;
 }
+.espaco{
+    margin-top: 2%;
+}
+#cubo{
+    width: 100%;
+    height: auto;
+    background-color: #638755;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
 
 .retangulo{
    height: 30%;
    background-color: #638755;
    border-radius: 25px;
+   margin-top:5%;
 }
 
 #barra-vegan{
