@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<link rel="stylesheet" href="fontawesome/css/all.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -27,16 +27,16 @@
                     </ul>
                 </nav>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 text-center">
 				<div id="cubo">
-					<span class="yellow text-center">Peça agora!</span>
+					<span class="yellow">Peça agora!</span>
 					<img class="icone" src="img/googmer@2x.png">
 				</div>
 			</div>
 			<div class="col-sm-2">
 			
-			<i class="fab fa-facebook-square fa-2x sociais"></i>
-			<i class="fab fa-instagram fa-2x sociais"></i>
+			<a href="#"><i class="fab fa-facebook-square fa-2x sociais"></i></a>
+			<a href="#"><i class="fab fa-instagram fa-2x sociais"></i></a>
 			
 			</div>
 		</div>
@@ -61,9 +61,9 @@
 		</div>
         <div class="row retangulo">
 			
-				<div class="col-md-4 teste text-center"><i class="fab fa-whatsapp yellow"></i><span>Peça pelo What's</span><span>(00) 0000-000</span></div>
-				<div class="col-md-4 teste text-center"><i class="fas fa-mobile-alt yellow"></i></span>Peça pelo Goomer</span><span><img src="img/googmer.png"></span></div>
-				<div class="col-md-4 teste text-center"><i class="far fa-clock yellow"></i></span>Funcionamento</span><span>Ter -Dom | 18h às 23h</span></div>
+				<div class="col-md-4 text-center"><span><i class="fab fa-whatsapp yellow"></i>Peça pelo What's</span><span>(00) 0000-000</span></div>
+				<div class="col-md-4 text-center"><i class="fas fa-mobile-alt yellow"></i></span>Peça pelo Goomer</span><span><img src="img/googmer.png"></span></div>
+				<div class="col-md-4 text-center"><i class="far fa-clock yellow"></i></span>Funcionamento</span><span>Ter -Dom | 18h às 23h</span></div>
 				
 		</div>
     </div>
@@ -78,7 +78,7 @@
 			<h3>
 				Somos uma casa pequena e aconchegante, mas nossa vontade de crescer é tão grando quanto nosso propósito
 			</h3>
-			<p class="txt-principal">Com identidade um tanto rústica, com raízes na praia ou em lugares que têm conexão com a natureza, nasceu o <strong>Bungalow Plant-Based Sushi</strong>. O primeiro capítulo de nossa história começa na cidade de Santos, mas em breve nos veremos pelo Brasil!</p>
+			<p class="txt-principal">Com identidade um tanto rústica, com raízes na praia ou em lugares que têm conexão com a natureza, nasceu o <span class="cinza">Bungalow Plant-Based Sushi</span>. O primeiro capítulo de nossa história começa na cidade de Santos, mas em breve nos veremos pelo Brasil!</p>
 		
 			<a href="#">Saiba mais sobre a gente</a>
 			<hr>
@@ -88,6 +88,23 @@
 					<img class="imagem-front img-fluid" src="img/img-sushi.png">
 				</figure>
 			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+			<figure class="figure" >
+					<img class="imagem-front img-fluid" src="img/img-sushi.png">
+				</figure>
+			</div>
+			<div class="col-md-6">
+			<p class="txt-secundario">Mas antes de plantarmos raízes em terras caiçaras, viajamos pela Ásia e nos inspiramos no Hindi para criar a nossa marca. Bungalow vem da palavra “Baṅglo”, da língua Guzerati, que por sua vez vem do hindi “Baṅglã”, que significa “Casa no estilo de Bengala”, uma região histórica do Sul da Ásia. 
+</p>
+			<p class="txt-secundario">Essas casas eram consideradas tradicionais por serem pequenas, com apenas um andar e com uma varanda na entrada. Diferente dos Bangalôs modernos, que podem ser maiores com até um andar e meio, uma Baṅglã traz o aconchego de uma casa pequena em tamanho, mas gigante pelas lembranças marcantes e experiências que nela acontecem!
+</p>
+			<p class="txt-secundario">Da conexão que temos com a natureza fazemos sushi vegano à base de plantas, tão gostoso e saboroso quanto o sushi tradicional feito com peixe. Aqui você irá se sentir em casa ao provar alimentos frescos, saborosos, naturais e orgânicos, que respeitam todos os seres vivos, principalmente os animais.</p>
+			<p class="txt-secundario">Prometemos levar a qualidade do melhor sushi plant-based até o conforto do seu Bungalow. Valorizamos a sustentabilidade, alimentamos a alma e proporcionamos a você a experiência de uma dark-kitchen, onde o atendimento é feito totalmente pela internet, sem ser presencial!</p>
+			<p class="txt-verde">Seja bem-vindo(a) ao nosso Bungalow e bom apetite!</p>	
+		</div>
+			
 		</div>
 	</article>
 	
@@ -143,25 +160,25 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
-				<div class="row">
-					<div class="col"><span>Contato</span><span>(00) 0000-000</span></div>
+			<div class="col-md-4 text-center">
+				<div class="row espaco-span">
+					<div class="col text-left"><span>Contato</span><span>(00) 0000-000</span></div>
 				</div>
-				<div class="row">
-					<div class="col"><span>Funcionamento</span><span>Ter - Dom | 18h às 23h</span></div>
+				<div class="row espaco-span">
+					<div class="col text-left"><span>Funcionamento</span><span>Ter - Dom | 18h às 23h</span></div>
 				</div>			
-				<div class="row">	
-					<div class="col"><span>Peça pelo What's</span><span>(00)0000-000</span></div>
+				<div class="row espaco-span">	
+					<div class="col text-left"><span>Peça pelo What's</span><span>(00)0000-000</span></div>
 				</div>
 			</div>
-			<div class="col-md-4">
-				<img class="text-center" src="img/casa-yellow.png">
-				<p class="text-center">Seja bem vindo(a) ao nosso <strong>Bungalow</strong> e bom apetite</p>
+			<div class="col-md-4 text-center casa-rodape">
+				<img src="img/casa-yellow.png">
+				<p class="text-center bemvindo-rodape">Seja bem vindo(a) ao nosso <strong>Bungalow</strong> e bom apetite</p>
 			</div>
-			<div class="col-md-4 ">
-			<i class="fab fa-instagram"></i>
-			<i class="fab fa-instagram"></i>
-			<i class="fab fa-instagram"></i>
+			<div class="col-md-4 text-center">
+			<a href="#"><i class="fab fa-instagram fa-2x yellow sociais-rodape"></i></a>
+			<a href="#"><i class="fab fa-whatsapp fa-2x yellow sociais-rodape"></i></a>
+			<a href="#"><i class="fab fa-facebook-square fa-2x yellow sociais-rodape"></i></a>
 
 			</div>
 		</div>
