@@ -40,7 +40,7 @@
 			
 			</div>
 		</div>
-        <div class="row">
+        <div class="row desce">
             <div class="col"></div>
             <div class="col text-center"><img src="img/logo-casa"></div>         
             <div class="col"></div>
@@ -162,13 +162,13 @@
 		<div class="row">
 			<div class="col-md-4 text-center">
 				<div class="row espaco-span">
-					<div class="col text-left"><span>Contato</span><span>(00) 0000-000</span></div>
+					<div class="col text-left"><span><strong>Contato</strong></span><span>(00) 0000-000</span></div>
 				</div>
 				<div class="row espaco-span">
-					<div class="col text-left"><span>Funcionamento</span><span>Ter - Dom | 18h às 23h</span></div>
+					<div class="col text-left"><span><strong>Funcionamento</strong></span><span>Ter - Dom | 18h às 23h</span></div>
 				</div>			
 				<div class="row espaco-span">	
-					<div class="col text-left"><span>Peça pelo What's</span><span>(00)0000-000</span></div>
+					<div class="col text-left"><span><strong>Peça pelo What's</strong></span><span>(00)0000-000</span></div>
 				</div>
 			</div>
 			<div class="col-md-4 text-center casa-rodape">

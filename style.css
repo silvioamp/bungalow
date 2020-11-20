@@ -10,7 +10,7 @@ html, body{
 }
 
 header{
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-size: cover;
     display: table;
@@ -76,10 +76,14 @@ header .container nav ul li a{
 }
 #cubo{
     width: 100%;
-    height: auto;
+    height: 65%;
     background-color: #638755;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+}
+
+.desce{
+    margin-top: 5%;
 }
 
 .retangulo{
