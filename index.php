@@ -62,17 +62,20 @@ d<!DOCTYPE html>
 			<div class="col-md-4"></div>
 		</div>
         <div class="row retangulo">
-			
-				<div class="col-md-4 text-center">
-					<span><i class="fab fa-whatsapp yellow"></i>Peça pelo What's</span><span>(00) 0000-000</span>
+				<div class="col-md-1"><i class="fab fa-whatsapp yellow icone-teste"></i></div>
+				<div class="col-md-3 text-left">
+					<span>Peça pelo What's</span><span>(00) 0000-000</span>
 				</div>
-				<div class="col-md-4 text-center">
-					<i class="fas fa-mobile-alt yellow"></i>
-					</span>Peça pelo Goomer</span><span><img src="img/googmer.png"></span>
+				<div class="col-md-1"><i class="fas fa-mobile-alt yellow icone-teste"></i></div>
+				<div class="col-md-3 text-left">
+					
+				<span>Peça pelo Goomer</span><img src="img/googmer.png">
 				</div>
-				<div class="col-md-4 text-center">
-					<i class="far fa-clock yellow"></i>
-				</span>Funcionamento</span><span>Ter -Dom | 18h às 23h</span></div>
+				<div class="col-md-1"><i class="far fa-clock yellow icone-teste"></i></div>
+				<div class="col-md-3 text-left">
+					
+				<span>Funcionamento</span><span>Ter -Dom | 18h às 23h</span>
+				</div>
 				
 		</div>
     </div>

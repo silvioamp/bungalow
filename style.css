@@ -118,6 +118,7 @@ strong.verde{
    border-radius: 25px;
    margin-top:5%;
    padding: 15px 10px;
+   position: relative;
 }
 
 #barra-vegan{
@@ -127,6 +128,11 @@ strong.verde{
 }
 span{
     display: block;
+}
+.icone-teste{
+    position:absolute;
+    top:8%;
+    left:87%;
 }
 
 footer{
