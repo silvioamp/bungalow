@@ -71,6 +71,7 @@ header .container nav ul li a{
 .espaco{
     margin-top: 2%;
 }
+
 .espaco-cardapio{
     margin-top: 10%;
     margin-bottom: 10%;
@@ -78,9 +79,26 @@ header .container nav ul li a{
 .espaco-span{
     margin-top:8%;
 }
+#cardapio{
+    margin-top:4%;
+}
+#cardapaio a{
+    padding-left:5px;
+    padding-right: 5px;
+}
+
+#cardapio a:hover{
+    color:#638755;
+    font-weight: bold;
+}
+
+.espaco-rodape{
+    padding: 4%;
+}
 
 strong.verde{
     color:#638755;
+    
 }
 #cubo{
     width: 100%;
@@ -140,6 +158,9 @@ h3{
 .txt-verde{
     color:#638755;
 }
+.txt-branco{
+    color: #FFF;
+}
 
 .cinza{
     color: #737373;
@@ -152,7 +173,7 @@ h3{
 
 .card{
     background-color: #638755;
-    height: 20%;
+    height: auto;
     margin-top: 4%;
 }
 
@@ -161,10 +182,8 @@ figure{
 }
 #galeria{
 background-color: #FFF5E4;
-}
-button{
-    background: none;
-    border:none;
+margin-top: 4%;
+
 }
 
 h2{
@@ -188,6 +207,7 @@ hr{
 }
 .menu-secundario{
     color: #717171;
+    padding: 30px;
 }
 p{
     color:#717171;
@@ -199,9 +219,12 @@ p{
 }
 
 .casa-rodape{
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .bemvindo-rodape{
     padding: 5% 29%;
     
+}
+.icone-rodape{
+    padding: 1% 0%;
 }

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+d<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -58,14 +58,21 @@
         </div>
         <div class="row ">
 			<div class="col-md-4"></div>
-			<div class="col-md-4"><p class="text-center">PLANTED-BASE SUSHI</p></div>
+			<div class="col-md-4"><p class="text-center txt-branco">PLANTED-BASE SUSHI</p></div>
 			<div class="col-md-4"></div>
 		</div>
         <div class="row retangulo">
 			
-				<div class="col-md-4 text-center"><span><i class="fab fa-whatsapp yellow"></i>Peça pelo What's</span><span>(00) 0000-000</span></div>
-				<div class="col-md-4 text-center"><i class="fas fa-mobile-alt yellow"></i></span>Peça pelo Goomer</span><span><img src="img/googmer.png"></span></div>
-				<div class="col-md-4 text-center"><i class="far fa-clock yellow"></i></span>Funcionamento</span><span>Ter -Dom | 18h às 23h</span></div>
+				<div class="col-md-4 text-center">
+					<span><i class="fab fa-whatsapp yellow"></i>Peça pelo What's</span><span>(00) 0000-000</span>
+				</div>
+				<div class="col-md-4 text-center">
+					<i class="fas fa-mobile-alt yellow"></i>
+					</span>Peça pelo Goomer</span><span><img src="img/googmer.png"></span>
+				</div>
+				<div class="col-md-4 text-center">
+					<i class="far fa-clock yellow"></i>
+				</span>Funcionamento</span><span>Ter -Dom | 18h às 23h</span></div>
 				
 		</div>
     </div>
@@ -426,27 +433,35 @@
 <!-- Inicio Footer !-->
 <footer>
 	<div class="container">
-		<div class="row">
+		<div class="row espaco-rodape">
 			<div class="col-md-4 text-center">
 				<div class="row espaco-span">
-					<div class="col text-left"><span><strong>Contato</strong></span><span>(00) 0000-000</span></div>
+					<div class="col-sm-1 icone-rodape"><i class="fas fa-phone-alt yellow"></i></div>
+					<div class="col-sm-11 text-left">
+						<span><strong>Contato</strong></span><span>(00) 0000-000</span>
+					</div>
 				</div>
 				<div class="row espaco-span">
-					<div class="col text-left"><span><strong>Funcionamento</strong></span><span>Ter - Dom | 18h às 23h</span></div>
+					<div class="col-sm-1 icone-rodape"><i class="far fa-clock yellow"></i></div>
+					<div class="col-sm-11 text-left">
+						<span><strong>Funcionamento</strong></span><span>Ter - Dom | 18h às 23h</span>
+					</div>
 				</div>			
-				<div class="row espaco-span">	
-					<div class="col text-left"><span><strong>Peça pelo What's</strong></span><span>(00)0000-000</span></div>
+				<div class="row espaco-span">
+					<div class="col-sm-1 icone-rodape"><i class="fab fa-whatsapp yellow"></i></div>	
+					<div class="col-sm-11 text-left">
+						<span><strong>Peça pelo What's</strong></span><span>(00)0000-000</span>
+					</div>
 				</div>
 			</div>
 			<div class="col-md-4 text-center casa-rodape">
 				<img src="img/casa-yellow.png">
-				<p class="text-center bemvindo-rodape">Seja bem vindo(a) ao nosso <strong>Bungalow</strong> e bom apetite</p>
+				<p class="text-center bemvindo-rodape txt-branco">Seja bem vindo(a) ao nosso <strong>Bungalow</strong> e bom apetite</p>
 			</div>
 			<div class="col-md-4 text-center">
-			<a href="#"><i class="fab fa-instagram fa-2x yellow sociais-rodape"></i></a>
-			<a href="#"><i class="fab fa-whatsapp fa-2x yellow sociais-rodape"></i></a>
-			<a href="#"><i class="fab fa-facebook-square fa-2x yellow sociais-rodape"></i></a>
-
+				<a href="#"><i class="fab fa-instagram fa-2x yellow sociais-rodape"></i></a>
+				<a href="#"><i class="fab fa-whatsapp fa-2x yellow sociais-rodape"></i></a>
+				<a href="#"><i class="fab fa-facebook-square fa-2x yellow sociais-rodape"></i></a>
 			</div>
 		</div>
 	</div>
