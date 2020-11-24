@@ -80,7 +80,7 @@ header .container nav ul li a{
     margin-top:8%;
 }
 #cardapio{
-    margin-top:4%;
+    margin-top:1%;
 }
 #cardapaio a{
     padding-left:5px;
@@ -94,6 +94,9 @@ header .container nav ul li a{
 
 .espaco-rodape{
     padding: 4%;
+}
+.espaco-galeria{
+    padding-bottom: 4%;
 }
 
 strong.verde{
@@ -181,6 +184,12 @@ h3{
     background-color: #638755;
     height: auto;
     margin-top: 4%;
+}
+.galeria-fotos{
+    color: #638755;
+    font-size: 200%;
+    padding-top: 5%;
+    padding-bottom:3%;
 }
 
 figure{

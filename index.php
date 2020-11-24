@@ -427,8 +427,23 @@ d<!DOCTYPE html>
 
 <!-- Iniccio Galeria !-->
 <div id="galeria">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2 "></div>
+			<div class="col-sm-8 text-center galeria-fotos">GALERIA DE FOTOS</div>
+			<div class="col-sm-2 "></div>
+		</div>
+	</div>
 	<picture>
-		galeria
+		<div class="row espaco-galeria">
+			<div class="col"><img src="img/galeria-2.png"></div>
+			<div class="col"><img src="img/galeria-2.png"></div>
+			<div class="col"><img src="img/galeria-2.png"></div>
+			<div class="col"><img src="img/galeria-2.png"></div>
+			<div class="col"><img src="img/galeria-2.png"></div>
+			<div class="col"><img src="img/galeria-2.png"></div>
+			
+		</div>
 	</picture>
 </div>
 <!-- Fim Galeria !-->
