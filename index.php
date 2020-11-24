@@ -23,7 +23,7 @@ d<!DOCTYPE html>
                 <nav>
                     <ul class="nav justify-content-center">
                         <li class="nav-item"><a class="nav-link active" href="#">Quem somos</a></li>
-                        <li class="nav-item"><a  class="nav-link active" href="#">Cardápio</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#">Cardápio</a></li>
                         <li class="nav-item"><a class="nav-link active" href="#">Fotos</a></li>
                         <li class="nav-item"><a class="nav-link active" href="#">Contato</a></li>
                     </ul>
@@ -94,7 +94,7 @@ d<!DOCTYPE html>
 			</h3>
 			<p class="txt-principal">Com identidade um tanto rústica, com raízes na praia ou em lugares que têm conexão com a natureza, nasceu o <span class="cinza">Bungalow Plant-Based Sushi</span>. O primeiro capítulo de nossa história começa na cidade de Santos, mas em breve nos veremos pelo Brasil!</p>
 		
-			<a  class="txt-verde" href="#"><strong class="verde">Saiba mais sobre a gente</strong></a>
+			<a onclick="Mudarestado('saibamais');" class="txt-verde" href="#"><strong class="verde">Saiba mais sobre a gente</strong><i class="fas fa-chevron-down icone-seta"></i></a>
 			<hr>
 			</div>
 			<div class="col-md-6">
@@ -103,7 +103,7 @@ d<!DOCTYPE html>
 				</figure>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row" id="saibamais">
 			<div class="col-md-6">
 			<figure class="figure" >
 					<img class="imagem-front img-fluid" src="img/img-sushi.png">
@@ -434,7 +434,7 @@ d<!DOCTYPE html>
 			<div class="col-sm-2 "></div>
 		</div>
 	</div>
-	<picture>
+	<picture>	
 		<div class="row espaco-galeria">
 			<div class="col"><img src="img/galeria-2.png"></div>
 			<div class="col"><img src="img/galeria-2.png"></div>
@@ -442,7 +442,6 @@ d<!DOCTYPE html>
 			<div class="col"><img src="img/galeria-2.png"></div>
 			<div class="col"><img src="img/galeria-2.png"></div>
 			<div class="col"><img src="img/galeria-2.png"></div>
-			
 		</div>
 	</picture>
 </div>
@@ -487,7 +486,8 @@ d<!DOCTYPE html>
 <!-- Fim Footer !-->
 
 <!-- script js para bootstrap !-->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
 </body>
 </html>

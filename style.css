@@ -152,6 +152,11 @@ h3{
     text-align: left;
 
 }
+.icone-seta{
+    font-size: 80%;
+    color:#638755;
+    padding-left: 3%;
+}
 
 .txt-principal{
     font-size: 16px;
@@ -183,7 +188,7 @@ h3{
 .card{
     background-color: #638755;
     height: auto;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 .galeria-fotos{
     color: #638755;
@@ -219,6 +224,7 @@ hr{
     box-align: left;
     border-top-width: 3px;
     margin-top: 0;
+    margin-right: 61%;
 }
 .menu-secundario{
     color: #717171;
@@ -243,3 +249,4 @@ p{
 .icone-rodape{
     padding: 1% 0%;
 }
+
