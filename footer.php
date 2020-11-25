@@ -1,4 +1,4 @@
-<script src="/bootstrap/js/bootstrap.min"></script>
+<?php
+phpinfo();
 
-</body>
-</html>
+?>

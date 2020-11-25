@@ -1,4 +1,4 @@
-d<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -20,6 +20,22 @@ d<!DOCTYPE html>
                 <img id=logo src="img/logo-bungalow">
             </div>
             <div class="col-sm-6">
+				<!-- menu mobile !-->
+				<nav class="navbar navbar-default navbar-fixed-top d-xl-none">
+					<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i class="fas fa-bars"></i>
+						</button>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse" style="">
+						<li><a href="#">Quem somos</a></li>
+						<li><a href="#">Cardápio</a></li>
+						<li><a href="#">Fotos</a></li>
+						<li><a href="#">Contato</a></li>
+					</div><!--/.nav-collapse -->
+					</div>
+				</nav>
+				<!-- fim menu mobile !-->
                 <nav>
                     <ul class="nav justify-content-center">
                         <li class="nav-item"><a class="nav-link active" href="#">Quem somos</a></li>
@@ -94,7 +110,7 @@ d<!DOCTYPE html>
 			</h3>
 			<p class="txt-principal">Com identidade um tanto rústica, com raízes na praia ou em lugares que têm conexão com a natureza, nasceu o <span class="cinza">Bungalow Plant-Based Sushi</span>. O primeiro capítulo de nossa história começa na cidade de Santos, mas em breve nos veremos pelo Brasil!</p>
 		
-			<a onclick="Mudarestado('saibamais');" class="txt-verde" href="#"><strong class="verde">Saiba mais sobre a gente</strong><i class="fas fa-chevron-down icone-seta"></i></a>
+			<a onclick="Mudarestado('saibamais');" class="txt-verde" href="javascript:void(0);"><strong class="verde">Saiba mais sobre a gente</strong><i class="fas fa-chevron-down icone-seta"></i></a>
 			<hr>
 			</div>
 			<div class="col-md-6">
@@ -103,22 +119,24 @@ d<!DOCTYPE html>
 				</figure>
 			</div>
 		</div>
-		<div class="row" id="saibamais">
-			<div class="col-md-6">
-			<figure class="figure" >
-					<img class="imagem-front img-fluid" src="img/img-sushi.png">
-				</figure>
+		<div class="d-none" id="saibamais">
+			<div class="row">
+				<div class="col-md-6">
+				<figure class="figure" >
+						<img class="imagem-front img-fluid" src="img/img-sushi.png">
+					</figure>
+				</div>
+				<div class="col-md-6">
+					<p class="txt-secundario">Mas antes de plantarmos raízes em terras caiçaras, viajamos pela Ásia e nos inspiramos no Hindi para criar a nossa marca. Bungalow vem da palavra “Baṅglo”, da língua Guzerati, que por sua vez vem do hindi “Baṅglã”, que significa “Casa no estilo de Bengala”, uma região histórica do Sul da Ásia. 
+		</p>
+					<p class="txt-secundario">Essas casas eram consideradas tradicionais por serem pequenas, com apenas um andar e com uma varanda na entrada. Diferente dos Bangalôs modernos, que podem ser maiores com até um andar e meio, uma Baṅglã traz o aconchego de uma casa pequena em tamanho, mas gigante pelas lembranças marcantes e experiências que nela acontecem!
+		</p>
+					<p class="txt-secundario">Da conexão que temos com a natureza fazemos sushi vegano à base de plantas, tão gostoso e saboroso quanto o sushi tradicional feito com peixe. Aqui você irá se sentir em casa ao provar alimentos frescos, saborosos, naturais e orgânicos, que respeitam todos os seres vivos, principalmente os animais.</p>
+					<p class="txt-secundario">Prometemos levar a qualidade do melhor sushi plant-based até o conforto do seu Bungalow. Valorizamos a sustentabilidade, alimentamos a alma e proporcionamos a você a experiência de uma dark-kitchen, onde o atendimento é feito totalmente pela internet, sem ser presencial!</p>
+					<p class="txt-verde"><strong class="verde">Seja bem-vindo(a) ao nosso Bungalow e bom apetite!</strong></p>	
+				</div>
+				
 			</div>
-			<div class="col-md-6">
-			<p class="txt-secundario">Mas antes de plantarmos raízes em terras caiçaras, viajamos pela Ásia e nos inspiramos no Hindi para criar a nossa marca. Bungalow vem da palavra “Baṅglo”, da língua Guzerati, que por sua vez vem do hindi “Baṅglã”, que significa “Casa no estilo de Bengala”, uma região histórica do Sul da Ásia. 
-</p>
-			<p class="txt-secundario">Essas casas eram consideradas tradicionais por serem pequenas, com apenas um andar e com uma varanda na entrada. Diferente dos Bangalôs modernos, que podem ser maiores com até um andar e meio, uma Baṅglã traz o aconchego de uma casa pequena em tamanho, mas gigante pelas lembranças marcantes e experiências que nela acontecem!
-</p>
-			<p class="txt-secundario">Da conexão que temos com a natureza fazemos sushi vegano à base de plantas, tão gostoso e saboroso quanto o sushi tradicional feito com peixe. Aqui você irá se sentir em casa ao provar alimentos frescos, saborosos, naturais e orgânicos, que respeitam todos os seres vivos, principalmente os animais.</p>
-			<p class="txt-secundario">Prometemos levar a qualidade do melhor sushi plant-based até o conforto do seu Bungalow. Valorizamos a sustentabilidade, alimentamos a alma e proporcionamos a você a experiência de uma dark-kitchen, onde o atendimento é feito totalmente pela internet, sem ser presencial!</p>
-			<p class="txt-verde"><strong class="verde">Seja bem-vindo(a) ao nosso Bungalow e bom apetite!</strong></p>	
-		</div>
-			
 		</div>
 	</article>
 	
@@ -159,7 +177,7 @@ d<!DOCTYPE html>
 	<div id=cardapio>
 		<nav>	
 			<ul class="nav justify-content-center">
-				<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Entradas</a></li>
+				<li class="nav-item"><a class="nav-link active menu-secundario" href="entradas.php">Entradas</a></li>
 				<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Hot Roll</a></li>
 				<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Combinados</a></li>
 				<li class="nav-item"><a class="nav-link active menu-secundario" href="#">Temakis</a></li>
@@ -488,6 +506,7 @@ d<!DOCTYPE html>
 <!-- script js para bootstrap !-->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="script.js"></script>
 </body>
 </html>
