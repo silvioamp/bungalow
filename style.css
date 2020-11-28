@@ -4,9 +4,10 @@
     color: #FFF;  
 
 }
-html, body{
+html, body {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 header{
@@ -45,6 +46,14 @@ header .container nav ul li a{
     margin-left: auto;
     margin-right: auto;
 }
+.goomer{
+    padding-top:5%;
+}
+
+.goomer a:link{
+    text-decoration: none;
+}
+
 .sociais{
     margin-top: 8%;
     margin-left: 5%;
@@ -60,6 +69,14 @@ header .container nav ul li a{
    height: auto;
     
 }
+.barra{
+    position: absolute;
+    top:83%;
+}
+.pontos{
+   
+    text-align: right;
+}
 
 .teste{
     padding-top:2%;
@@ -67,6 +84,7 @@ header .container nav ul li a{
 }
 .yellow{
     color:#FFCC5A;
+    
 }
 .espaco{
     margin-top: 2%;
@@ -93,7 +111,7 @@ header .container nav ul li a{
 }
 
 .espaco-rodape{
-    padding: 4%;
+    padding: 2%;
 }
 .espaco-galeria{
     padding-bottom: 4%;
@@ -172,6 +190,11 @@ h3{
 .txt-verde{
     color:#638755;
 }
+
+#quemsomos a:link{
+    text-decoration: none;
+}
+
 .txt-branco{
     color: #FFF;
 }
@@ -249,4 +272,5 @@ p{
 .icone-rodape{
     padding: 1% 0%;
 }
+
 

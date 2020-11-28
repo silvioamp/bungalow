@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+
+    .fa-angle-right{
+        color: #638755;
+    }
+    .fa-angle-left{
+        color: #638755;
+    }
+
+
+    @media (min-width: 576px) { 
+        .some{
+            display: none;
+        }
+     }
