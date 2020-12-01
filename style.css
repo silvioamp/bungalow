@@ -104,6 +104,11 @@ header .container nav ul li a{
     padding-left:5px;
     padding-right: 5px;
 }
+.imagem-background{
+    background-image: url('img/imagem3.png');
+    background-repeat: no-repeat;
+    background-position: right 28px top;
+}
 
 #cardapio a:hover{
     color:#638755;
@@ -216,8 +221,8 @@ h3{
 .galeria-fotos{
     color: #638755;
     font-size: 200%;
-    padding-top: 5%;
-    padding-bottom:3%;
+    padding-top: 2%;
+    
 }
 
 figure{
@@ -266,11 +271,17 @@ p{
     margin-top: 2%;
 }
 .bemvindo-rodape{
-    padding: 5% 29%;
+    padding: 5% 28%;
     
 }
 .icone-rodape{
     padding: 1% 0%;
 }
 
+.faq {
+    margin: 20px;
+    display: none; /* coloca todos como invisiveis inicialmente */
+  }
 
+
+  

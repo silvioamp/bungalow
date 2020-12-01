@@ -1,3 +1,4 @@
+<div class="imagem-background">
 <div class="row">
 			<div class="col-sm-4 "><h4 class="txt-verde espaco-cardapio">Entradas Quentes</h4></div>
 			<div class="col-sm-2"></div>
@@ -60,3 +61,4 @@
 			<div class="col-sm-4"><h5>Tempurá de Tofu - 8 unidades</h5><p>Tempurá de tofu defumado, guacamole e broto de coentro.</p></div>
 			<div class="col-sm-2"><p>R$39,00</p></div>
 		</div>
+</div>

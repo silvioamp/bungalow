@@ -13,10 +13,25 @@
     .fa-angle-left{
         color: #638755;
     }
+    button{
+        background: none;
+        border: none;
+    }
 
 
-    @media (min-width: 576px) { 
-        .some{
+    @media (max-width: 716px) { 
+       .esconde, .barra, .pontos{
             display: none;
         }
+
+        hr{
+            width:64%;
+        }
+     }
+
+
+     @media (min-width: 992px) and (max-width: 1920.98px) { 
+         .barra{
+             top: 105% !important;
+         }
      }

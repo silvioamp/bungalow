@@ -12,11 +12,69 @@ function Mudarestado(el) {
         icon[0].className = "fas fa-chevron-down icone-seta";
 }}
 
+$(document).ready(function(){
 
-$('a.link').click(function(event) {
-    event.preventDefault();
-    $('div.content').html($('div', this).html());
+  if($.trim($(".content").html()) == ''){
+    ajaxTipo('entradas');
+  }
+
+  $('.getpage').click(function() {
+
+    var tipo = retornaArquivo($(this).text());
+
+    ajaxTipo(tipo);
+ 
+    
   });
 
+});
 
-  
+function ajaxTipo(tipo){
+  $.ajax({
+    url:tipo,
+    dataType:'html',
+    success:function(html)
+{
+  $(".content").fadeOut(0).html(html).fadeIn(500);
+}    });
+}
+
+function retornaArquivo(texto){
+  switch(texto){
+    case 'Entradas':
+        return "entradas";
+    break;
+    case 'Hot Roll':
+        return "hotroll";
+    break;
+    case 'Combinados':
+        return "combinados";
+    break;
+    case 'Temakis':
+        return "temakis";
+    break;
+    case 'Niguiris':
+        return "niguiris";
+    break;
+    case 'Uramakis e outros':
+        return "uramakis";
+    break;
+    case "Joy's":
+        return "joys";
+    break;
+    case 'Bebidas':
+        return "bebidas";
+    break;
+
+  }
+}
+
+  function mostraResposta(id){
+    respostas = document.getElementsByClassName('faq'); //recupera todos elementos da classe faq
+    for (var i = 0; i < respostas.length; i++) { // coloca todos eles invisiveis
+      respostas[i].style.display = 'none'; 
+    }
+    
+    clicada = document.getElementById(id); //recupera o id passado por argumento
+    clicada.style.display = 'inherit'; //faz ele ser exibido conforme o item pai
+  }
