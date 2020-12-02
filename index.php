@@ -18,10 +18,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-2">
-                <img id=logo src="img/logo-bungalow">
-            </div>
-            <div class="col-sm-6">
-				<!-- menu mobile !-->
+				<img id=logo src="img/logo-bungalow">
+				
 				<nav class="navbar navbar-default navbar-fixed-top d-xl-none">
 					<div class="container">
 						<div class="navbar-header">
@@ -36,7 +34,24 @@
 						</div><!--/.nav-collapse -->
 					</div>
 				</nav>
-				<!-- fim menu mobile !-->
+            </div>
+            <div class="col-sm-6">
+				<!-- menu mobile
+				<nav class="navbar navbar-default navbar-fixed-top d-xl-none">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i class="fas fa-bars"></i>
+							</button>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse">
+							<li><a href="#">Quem somos</a></li>
+							<li><a href="#">Cardápio</a></li>
+							<li><a href="#">Fotos</a></li>
+							<li><a href="#">Contato</a></li>
+						</div> 
+					</div>
+				</nav>
+				fim menu mobile !-->
                 <nav class="esconde">
                     <ul class="nav justify-content-center">
                         <li class="nav-item"><a class="nav-link active" href="#quemsomos">Quem somos</a></li>
@@ -52,7 +67,7 @@
 					<img class="icone" src="img/googmer@2x.png">
 				</div>
 			</div>
-			<div class="col-sm-2">
+			<div class="col-sm-2 tag-sociais">
 			
 			<a href="#"><i class="fab fa-facebook-square fa-2x sociais"></i></a>
 			<a href="#"><i class="fab fa-instagram fa-2x sociais"></i></a>
@@ -65,12 +80,12 @@
             <div class="col"></div>
         </div>
         <div class="row espaco">
-            <div class="col"></div>         
+            <div class="col esconde"></div>         
             <div class="col">
                 <h1 class="text-center fonte-site">Fresh, Vegan</h1>
                 <h1 class="text-center fonte-site">& Delicious!</h1>
             </div>
-            <div class="col"></div>
+            <div class="col esconde"></div>
             
         </div>
         <div class="row ">
@@ -419,7 +434,7 @@
 				<div class="row espaco-span">
 					<div class="col-sm-1 icone-rodape"><i class="fas fa-phone-alt yellow"></i></div>
 					<div class="col-sm-11 text-left">
-						<span><strong>Contato</strong></span><span>(00) 0000-000</span>
+						<span><strong>Contato</strong></span><span>(13) 3385-2500</span>
 					</div>
 				</div>
 				<div class="row espaco-span">
@@ -431,7 +446,7 @@
 				<div class="row espaco-span">
 					<div class="col-sm-1 icone-rodape"><i class="fab fa-whatsapp yellow"></i></div>	
 					<div class="col-sm-11 text-left">
-						<span><strong>Peça pelo What's</strong></span><span>(00)0000-000</span>
+						<span><strong>Peça pelo What's</strong></span><span>(13)33-000</span>
 					</div>
 				</div>
 			</div>
@@ -439,7 +454,7 @@
 				<img src="img/casa-yellow.png">
 				<p class="text-center bemvindo-rodape txt-branco">Seja bem vindo(a) ao nosso <strong>Bungalow</strong> e bom apetite</p>
 			</div>
-			<div class="col-md-4 text-center">
+			<div class="col-md-4 text-center ">
 				<a href="#"><i class="fab fa-instagram fa-2x yellow sociais-rodape"></i></a>
 				<a href="#"><i class="fab fa-whatsapp fa-2x yellow sociais-rodape"></i></a>
 				<a href="#"><i class="fab fa-facebook-square fa-2x yellow sociais-rodape"></i></a>

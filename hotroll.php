@@ -1,3 +1,4 @@
+<div class="background-hotrol">
 <div class="row">
 			<div class="col-sm-4 "><h4 class="txt-verde espaco-cardapio">Hot Roll</h4></div>
 			<div class="col-sm-2"></div>
@@ -11,3 +12,4 @@
 			<div class="col-sm-4"><h5>Hot Roll Bungalow</h5><p>Hot roll de vagem holandesa, shitake e queijo chévre com crispy de alho porró e cebolinha.</p></div>
 			<div class="col-sm-2"><p>R$39,00</p></div>
 		</div>
+</div>

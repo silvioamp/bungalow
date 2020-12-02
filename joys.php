@@ -1,3 +1,4 @@
+<div class="background-joys">
 <div class="row">
 			<div class="col-sm-4 "><h4 class="txt-verde espaco-cardapio">Joy's - 2 Unidades</h4></div>
 			<div class="col-sm-2"></div>
@@ -28,3 +29,4 @@
 			<div class="col-sm-2"><p>R$ 16,00</p></div>
 			
 		</div>
+</div>

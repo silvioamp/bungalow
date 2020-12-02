@@ -16,22 +16,119 @@
     button{
         background: none;
         border: none;
+        font-size: xx-large;
     }
 
 
     @media (max-width: 716px) { 
-       .esconde, .barra, .pontos{
+       .esconde, .barra, .pontos, .tag-sociais{
             display: none;
         }
 
         hr{
             width:64%;
         }
+        .icone-teste{
+            position: absolute;
+            top: 153%;
+            left: 18%;
+        }
+        .casa-rodape{
+            margin-top: 10%;
+        }
+        .bemvindo-rodape{
+            padding: 0% 28%;
+        }
+        .retangulo{
+            height: 220px;
+            background-color: #638755;
+            border-radius: 25px;
+            /* margin-top: 5%; */
+            padding: 2% 2%;
+            position: relative;
+            margin: 5%;
+        }
+        .text-left{
+            text-align: center!important;
+        }
+        .sociais-rodape{
+            margin-top: 10%;
+            margin-left: 5%;
+            margin-bottom: 8%;
+        }
+        
+
+        .background-entrada{
+            background-image: url('img/background-entrada.png');
+            background-repeat: no-repeat;
+            background-position: right 28px top;
+            background-size: 86%;
+
+        }
+        .background-combinado{
+            background-image: url('img/background-combinados.png');
+            background-repeat: no-repeat;
+            background-position: right 28px top;
+            background-size: 86%;
+
+
+        }
+        
+        .background-hotrol{
+            background-image: url('img/background-hotrol.png');
+            background-repeat: no-repeat;
+            background-position: right 28px top;
+            background-size: 86%;
+
+        
+        }
+        .background-niguiri{
+            background-image: url('img/background-niguiris.png');
+            background-repeat: no-repeat;
+            background-position: right 28px top;
+            background-size: 86%;
+
+
+        }
+        .background-temaki{
+            background-image: url('img/background-temakis.png');
+            background-repeat: no-repeat;
+            background-position: right 28px top;
+            background-size: 86%;
+
+        }
+        .background-uramaki{
+            background-image: url('img/background-uramakis.png');
+            background-repeat: no-repeat;
+            background-position: right 28px top;
+            background-size: 86%;
+
+
+        }
+        .background-joys{
+            background-image: url('img/background-joys.png');
+            background-repeat: no-repeat;
+            background-position: right 28px top;
+            background-size: 86%;
+
+
+        }
+
      }
 
 
-     @media (min-width: 992px) and (max-width: 1920.98px) { 
-         .barra{
-             top: 105% !important;
+     @media (min-width: 992px) and (max-width: 1400.98px) { 
+        .barra{
+            position: absolute;
+            top:95%;
+        }
+         .retangulo{
+            height: 30%;
+            background-color: #638755;
+            border-radius: 25px;
+            margin-top: 5%;
+            padding: 2% 2%;
+            position: relative;
+            margin-bottom: 5%;
          }
      }

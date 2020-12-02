@@ -1,3 +1,4 @@
+<div class="background-niguiri">
 <div class="row">
 			<div class="col-sm-4 "><h4 class="txt-verde espaco-cardapio">Niguiris - 2 Unidades</h4></div>
 			<div class="col-sm-2"></div>
@@ -28,3 +29,4 @@
 			<div class="col-sm-4"><h5>Niguiri de Cogumelo Eringui e Nirá</h5><p>Niguiri feito com cogumelo eringui na manteiga vegana, azeite trufado, nirá, maionese de pimenta defumada e cebolinha.</p></div>
 			<div class="col-sm-2"><p>R$18,00</p></div>
 		</div>
+</div>

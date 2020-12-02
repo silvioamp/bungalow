@@ -1,3 +1,4 @@
+<div class="background-temaki">
 <div class="row">
 			<div class="col-sm-4 "><h4 class="txt-verde espaco-cardapio">Temakis</h4></div>
 			<div class="col-sm-2"></div>
@@ -22,3 +23,4 @@
 			<div class="col-sm-4"><h5>Temaki de Kakiaguê Fry</h5><p>Temaki de cogumelos fry, batido com maionese de wassabi, cebolinha e gergelim.</p></div>
 			<div class="col-sm-2"><p>R$29,00</p></div>
 		</div>
+</div>

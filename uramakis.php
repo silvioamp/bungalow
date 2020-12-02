@@ -1,3 +1,4 @@
+<div class="background-uramaki">
 <div class="row">
 			<div class="col-sm-4 "><h4 class="txt-verde espaco-cardapio">Hossomakis, Futomakis e Uramakis</h4></div>
 			<div class="col-sm-2"></div>
@@ -26,3 +27,4 @@
 			<div class="col-sm-4"><h5>Uramaki Caponata - 8 unidades</h5><p>Antepasto de berinjela, abobrinha, pimentões e alho finalizado com crispy de cebola e maionese de alho assado.</p></div>
 			<div class="col-sm-2"><p>R$ 39,00</p></div>
 		</div>
+</div>

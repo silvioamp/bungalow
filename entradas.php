@@ -1,4 +1,4 @@
-<div class="imagem-background">
+<div class="background-entrada">
 <div class="row">
 			<div class="col-sm-4 "><h4 class="txt-verde espaco-cardapio">Entradas Quentes</h4></div>
 			<div class="col-sm-2"></div>

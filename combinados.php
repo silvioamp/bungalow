@@ -1,3 +1,4 @@
+<div class="background-combinado">
 <div class="row">
 			<div class="col-sm-4 "><h4 class="txt-verde espaco-cardapio">Combinados</h4></div>
 			<div class="col-sm-2"></div>
@@ -19,3 +20,4 @@
 			<p>1 Baterá de cogumelos, 1 futomaki de couve manteiga e berinjela defumada, 1 niguiri de shitake, 1 joy de abobrinha e pimetões confit, 1 jyo de pepino e guaca mole, 1 uramaki tempurá, 1 uramaki caponata, 1 joy de alga e shimeji, 1 niguiri de nirá, 1 iguiri pimentão vermelho, 1 niguiri de abobrinha, 1 niguiri de aspargos.</p></div>
 			<div class="col-sm-2"><p>R$ 52,00</p></div>
 		</div> 
+</div>
