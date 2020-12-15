@@ -10,82 +10,75 @@
 	<link rel="stylesheet" href="fontawesome/css/all.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="mobile.css">
-    <title>Bungalow | PLANT-BASED SUSHI</title>
+    <title>Bungalow | Plant-Based Sushi</title>
 </head>
 
 <!-- Inicio Header !-->
 <header>
     <div class="container">
-        <div class="row">
-            <div class="col-sm-2">
-				<img id=logo src="img/logo-bungalow">
-				
-				<nav class="navbar navbar-default navbar-fixed-top d-xl-none">
-					<div class="container">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i class="fas fa-bars"></i>
-							</button>
-						</div>
-						<div id="navbar" class="navbar-collapse collapse">
-							<li><a href="#">Quem somos</a></li>
-							<li><a href="#">Cardápio</a></li>
-							<li><a href="#">Fotos</a></li>
-							<li><a href="#">Contato</a></li>
-						</div><!--/.nav-collapse -->
+        <div class="row"><!-- Inicio row !-->
+			<div class="col-sm-2">
+					<div class="row">
+						<img id=logo src="img/logo-bungalow.png">
+
+							
+						
+						
+						<nav class="navbar navbar-default navbar-fixed-top d-xl-none mobile-menu">
+							<div class="container">
+								<div class="navbar-header ">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i class="fas fa-bars"></i>
+									</button>
+								</div>
+								<div id="navbar" class="navbar-collapse collapse">
+									<ul class="nav">
+										<li class="nav-item"><a class="nav-link active" href="#quemsomos">Início</a></li>
+										<li class="nav-item"><a class="nav-link active" href="#cardapio">Cardápio</a></li>
+										<li class="nav-item"><a class="nav-link active" href="#galeria">Fotos</a></li>
+										<li class="nav-item"><a class="nav-link active" href="#contato">Contato</a></li>
+									</ul>
+								</div>
+							</div>
+						</nav>
 					</div>
-				</nav>
-            </div>
-            <div class="col-sm-6">
-				<!-- menu mobile
-				<nav class="navbar navbar-default navbar-fixed-top d-xl-none">
-					<div class="container">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i class="fas fa-bars"></i>
-							</button>
-						</div>
-						<div id="navbar" class="navbar-collapse collapse">
-							<li><a href="#">Quem somos</a></li>
-							<li><a href="#">Cardápio</a></li>
-							<li><a href="#">Fotos</a></li>
-							<li><a href="#">Contato</a></li>
-						</div> 
-					</div>
-				</nav>
-				fim menu mobile !-->
-                <nav class="esconde">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item"><a class="nav-link active" href="#quemsomos">Quem somos</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#cardapio">Cardápio</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#galeria">Fotos</a></li>
-                        <li class="nav-item"><a class="nav-link active" href="#contato">Contato</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="col-sm-2 text-center esconde">
-				<div id="cubo">
-					<span class="goomer"><a href="#" ><strong class="yellow">Peça agora!</strong></a></span>
-					<img class="icone" src="img/googmer@2x.png">
 				</div>
+				<!-- Aqui comeca tudo ok !-->
+				<div class="col-sm-6">
+					
+					<nav class="esconde">
+						<ul class="nav justify-content-center">
+							<li class="nav-item"><a class="nav-link active" href="#quemsomos">Inicio</a></li>
+							<li class="nav-item"><a class="nav-link active" href="#cardapio">Cardápio</a></li>
+							<li class="nav-item"><a class="nav-link active" href="#galeria">Fotos</a></li>
+							<li class="nav-item"><a class="nav-link active" href="#contato">Contato</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-sm-2 text-center esconde">
+					<div id="cubo">
+						<span class="goomer"><a href="https://www.goomer.app/bungalowsushi"><strong class="yellow">Peça agora!</strong></a></span>
+						<a href="https://www.goomer.app/bungalowsushi"><img class="icone" src="img/googmer@2x.png"></a>
+					</div>
+				</div>
+				<div class="col-sm-2 tag-sociais">
+				
+				<a href="https://www.facebook.com/bungalowsushi/?ref=py_c"><i class="fab fa-facebook-square fa-2x sociais"></i></a>
+				<a href="https://www.instagram.com/bungalowsushi/"><i class="fab fa-instagram fa-2x sociais"></i></a>
+				
 			</div>
-			<div class="col-sm-2 tag-sociais">
-			
-			<a href="#"><i class="fab fa-facebook-square fa-2x sociais"></i></a>
-			<a href="#"><i class="fab fa-instagram fa-2x sociais"></i></a>
-			
-			</div>
-		</div>
+		</div><!-- fim row !-->
         <div class="row desce">
             <div class="col"></div>
-            <div class="col text-center"><img src="img/logo-casa"></div>         
+            <div class="col text-center"><img src="img/logo-casa.png"></div>         
             <div class="col"></div>
         </div>
         <div class="row espaco">
-            <div class="col esconde"></div>         
+            <div class="col esconde esconde-tablet"></div>         
             <div class="col">
                 <h1 class="text-center fonte-site">Fresh, Vegan</h1>
                 <h1 class="text-center fonte-site">& Delicious!</h1>
             </div>
-            <div class="col esconde"></div>
+            <div class="col esconde esconde-tablet"></div>
             
         </div>
         <div class="row ">
@@ -94,19 +87,19 @@
 			<div class="col-md-4"></div>
 		</div>
         <div class="row retangulo">
-				<div class="col-md-1"><i class="fab fa-whatsapp yellow icone-teste"></i></div>
-				<div class="col-md-3 text-left">
-					<span>Peça pelo What's</span><span>(00) 0000-000</span>
+				<div class="col-md-1 esconde"><i class="fab fa-whatsapp yellow icone-teste"></i></div>
+				<div class="col-md-3 text-left esconde">
+					<a href="https://wa.me/5513991239149"><span>Peça pelo What's</span></a><span>(00) 0000-000</span>
 				</div>
 				<div class="col-md-1"><i class="fas fa-mobile-alt yellow icone-teste"></i></div>
 				<div class="col-md-3 text-left">
 					
-				<span>Peça pelo Goomer</span><img src="img/googmer.png">
+				<a href="https://www.goomer.app/bungalowsushi"><span>Peça pelo Goomer</span></a><a href="https://www.goomer.app/bungalowsushi"><img src="img/googmer.png"></a>
 				</div>
 				<div class="col-md-1"><i class="far fa-clock yellow icone-teste"></i></div>
 				<div class="col-md-3 text-left">
 					
-				<span>Funcionamento</span><span>Ter -Dom | 18h às 23h</span>
+				<span>Funcionamento</span><span>Ter - Dom | 18h às 23h</span>
 				</div>
 				
 		</div>
@@ -114,6 +107,7 @@
 
 </header>
 <!-- Fim Header !-->
+<div id="bg-quemsomos">
 <div class="barra">
 <svg xmlns="http://www.w3.org/2000/svg" width="121.249" height="20.208" viewBox="0 0 121.249 20.208">
   <g id="Grupo_15" data-name="Grupo 15" transform="translate(-90.461 -467.397)">
@@ -161,7 +155,7 @@
 			<h3>
 				<strong class="verde">Somos uma casa pequena e aconchegante, mas nossa vontade de crescer é tão grando quanto nosso propósito</strong>
 			</h3>
-			<p class="txt-principal">Com identidade um tanto rústica, com raízes na praia ou em lugares que têm conexão com a natureza, nasceu o <span class="cinza">Bungalow Plant-Based Sushi</span>. O primeiro capítulo de nossa história começa na cidade de Santos, mas em breve nos veremos pelo Brasil!</p>
+			<p class="txt-principal">Com identidade um tanto rústica, com raízes na praia ou em lugares que têm conexão com a natureza, nasceu o <span class="cinza">Bungalow Plant-Based Sushi.</span>O primeiro capítulo de nossa história começa na cidade de Santos, mas em breve nos veremos pelo Brasil!</p>
 		
 			<a onclick="Mudarestado('saibamais');" class="txt-verde" href="javascript:void(0);"><strong class="verde">Saiba mais sobre a gente</strong><i class="fas fa-chevron-down icone-seta"></i></a>
 			<hr>
@@ -174,16 +168,17 @@
 		</div>
 		<div class="d-none" id="saibamais">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 esconde">
 				<figure class="figure" >
 						<img class="imagem-front img-fluid" src="img/img-sushi.png">
-					</figure>
+				</figure>
 				</div>
 				<div class="col-md-6">
-					<p class="txt-secundario">Mas antes de plantarmos raízes em terras caiçaras, viajamos pela Ásia e nos inspiramos no Hindi para criar a nossa marca. Bungalow vem da palavra “Baṅglo”, da língua Guzerati, que por sua vez vem do hindi “Baṅglã”, que significa “Casa no estilo de Bengala”, uma região histórica do Sul da Ásia. 
-		</p>
-					<p class="txt-secundario">Essas casas eram consideradas tradicionais por serem pequenas, com apenas um andar e com uma varanda na entrada. Diferente dos Bangalôs modernos, que podem ser maiores com até um andar e meio, uma Baṅglã traz o aconchego de uma casa pequena em tamanho, mas gigante pelas lembranças marcantes e experiências que nela acontecem!
-		</p>
+					<p class="txt-secundario">Mas antes de plantarmos raízes em terras caiçaras, viajamos pela Ásia e nos inspiramos no Hindi para criar a nossa marca. Bungalow vem da palavra “Baṅglo”, da língua Guzerati, que por sua vez vem do hindi “Baṅglã”, que significa “Casa no estilo de Bengala”, uma região histórica do Sul da Ásia.</p>
+					<p class="txt-secundario">Essas casas eram consideradas tradicionais por serem pequenas, com apenas um andar e com uma varanda na entrada. Diferente dos Bangalôs modernos, que podem ser maiores com até um andar e meio, uma Baṅglã traz o aconchego de uma casa pequena em tamanho, mas gigante pelas lembranças marcantes e experiências que nela acontecem!</p>
+					<figure class="figure d-xl-none" >
+						<img class="imagem-front img-fluid" src="img/img-sushi.png">
+					</figure>
 					<p class="txt-secundario">Da conexão que temos com a natureza fazemos sushi vegano à base de plantas, tão gostoso e saboroso quanto o sushi tradicional feito com peixe. Aqui você irá se sentir em casa ao provar alimentos frescos, saborosos, naturais e orgânicos, que respeitam todos os seres vivos, principalmente os animais.</p>
 					<p class="txt-secundario">Prometemos levar a qualidade do melhor sushi plant-based até o conforto do seu Bungalow. Valorizamos a sustentabilidade, alimentamos a alma e proporcionamos a você a experiência de uma dark-kitchen, onde o atendimento é feito totalmente pela internet, sem ser presencial!</p>
 					<p class="txt-verde"><strong class="verde">Seja bem-vindo(a) ao nosso Bungalow e bom apetite!</strong></p>	
@@ -194,6 +189,7 @@
 	</article>
 	
 </section>
+</div>
 </div>
 <!-- Fim Section !-->
 <div class="pontos">
@@ -252,16 +248,16 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3 card-body">
-				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-world" alt="our planet"></figure>
+				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-world.png" alt="our planet"></figure>
 			</div>
 			<div class="col-md-3 card-body">
-				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-heart" alt="compassion"></figure>
+				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-heart.png" alt="compassion"></figure>
 			</div>
 			<div class="col-md-3 card-body">
-				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-health" alt="our health"></figure>
+				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-health.png" alt="our health"></figure>
 			</div>
 			<div class="col-md-3 card-body">
-				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-animal" alt="the animals"></figure>
+				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-animal.png" alt="the animals"></figure>
 			</div>
 		</div>
 	</div>
@@ -272,7 +268,7 @@
 <div class="container">
 	<div id=cardapio>
 		<nav>	
-			<ul class="nav justify-content-center">
+			<ul class="nav justify-content-center esconde esconde-tablet">
 				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Entradas</a></li>
 				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Hot Roll</a></li>
 				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Combinados</a></li>
@@ -283,16 +279,35 @@
 				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Bebidas</a></li>
 			</ul>
 		</nav>
-		<div class="content">
-			
+		<!-- menu cardapio !-->
+				<nav class="navbar navbar-default navbar-fixed-top d-xl-none ">
+					<div class="row"><div class="col-md-4">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed cinza" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i class="fas fa-bars cinza"> Cardápio</i>
+							</button>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse">
+							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#entradas">Entradas</a></li>
+							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#hotroll">Hot Roll</a></li>
+							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#combinados">Combinados</a></li>
+							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#temakis">Temakis</a></li>
+							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#niguiris">Niguiris</a></li>
+							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#uramakis">Uramakis e outros</a></li>
+							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#joys">Joy's</a></li>
+							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#bebidas">Bebidas</a></li>
+						</div> 
+					</div>
+					</div>
+				</nav>
+			<!-- fim menu cardapio !-->
+		<div id="content">
 		</div>
-		
-		
+				
 	</div>	
 </div>
 <!-- Fim cardapio !-->
 
-<!-- Iniccio Galeria !-->
+<!-- Inicio Galeria !-->
 <div id="galeria">
 	<div class="container">
 		<div class="row">
@@ -302,127 +317,128 @@
 		</div>
 	</div>
 	<div id="imagens" class="espaco-rodape">
-					<!--Carousel Wrapper-->
+			<!--Carousel Wrapper-->
 			<div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
 
-			<!--Controls-->
-			<div class="controls-top text-center">
-			<a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
-			<a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+					<!--Controls-->
+					<div class="controls-top text-center esconde">
+						<a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
+						<a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+					</div>
+					<!--/.Controls-->
+
+				<!--Slides-->
+				<div class="carousel-inner" role="listbox">
+					
+					<!--First slide-->
+					<div class="carousel-item active">
+						
+						<div class="col-md-3 mb-3">
+							<div class="card">
+								<img class="img-fluid" src="img/galeria-prato.png"
+								alt="Card image cap">
+							</div>
+						</div>
+
+						<div class="col-md-3 mb-3 esconde">
+							<div class="card">
+								<img class="img-fluid" src="img/galeria-sushi.png"
+								alt="Card image cap">
+							</div>
+						</div>
+
+						<div class="col-md-3 mb-3 esconde">
+							<div class="card">
+								<img class="img-fluid" src="img/galeria-2.png"
+								alt="Card image cap">
+							</div>
+						</div>
+
+						<div class="col-md-3 mb-3 esconde">
+							<div class="card">
+								<img class="img-fluid" src="img/galeria-legumes.png"
+								alt="Card image cap">
+							</div>
+						</div>
+
+					</div>
+					<!--/.First slide-->
+
+					<!--Second slide-->
+					<div class="carousel-item">
+
+						<div class="col-md-3 mb-3">
+							<div class="card">
+								<img class="img-fluid" src="img/galeria-sushi.png"
+								alt="Card image cap">
+							</div>
+						</div>
+
+						<div class="col-md-3 mb-3 esconde">
+							<div class="card">
+								<img class="img-fluid" src="img/galeria-2.png"
+								alt="Card image cap">
+							</div>
+						</div>
+
+						<div class="col-md-3 mb-3 esconde">
+							<div class="card">
+								<img class="img-fluid" src="img/galeria-legumes.png"
+								alt="Card image cap">
+							</div>
+						</div>
+
+						<div class="col-md-3 mb-3 esconde">
+							<div class="card">
+								<img class="img-fluid" src="img/galeria-prato.png"
+								alt="Card image cap">
+							</div>
+						</div>
+
+					</div>
+					<!--/.Second slide-->
+
+					<!--Third slide-->
+					<div class="carousel-item">
+
+						<div class="col-md-3 mb-3">
+							<div class="card">
+								<img class="img-fluid" src="img/galeria-2.png"
+								alt="Card image cap">
+							</div>
+						</div>
+
+						<div class="col-md-3 mb-3 esconde">
+							<div class="card">
+								<img class="img-fluid" src="img/galeria-legumes.png"
+								alt="Card image cap">
+							</div>
+						</div>
+
+						<div class="col-md-3 mb-3 esconde">
+							<div class="card">
+								<img class="img-fluid" src="img/galeria-prato.png"
+								alt="Card image cap">
+							</div>
+						</div>
+
+						<div class="col-md-3 mb-3 esconde">
+							<div class="card">
+								<img class="img-fluid" src="img/galeria-sushi.png"
+								alt="Card image cap">
+							</div>
+						</div>
+
+					</div>
+					<!--/.Third slide-->
+				
+				</div>
+				<!--/.Slides-->
+
 			</div>
-			<!--/.Controls-->
-
-			<!--Slides-->
-			<div class="carousel-inner" role="listbox">
-
-			<!--First slide-->
-			<div class="carousel-item active">
-
-				<div class="col-md-3 mb-3">
-				<div class="card">
-					<img class="img-fluid" src="img/galeria-prato.png"
-					alt="Card image cap">
-				</div>
-				</div>
-
-				<div class="col-md-3 mb-3">
-				<div class="card">
-					<img class="img-fluid" src="img/galeria-sushi.png"
-					alt="Card image cap">
-				</div>
-				</div>
-
-				<div class="col-md-3 mb-3">
-				<div class="card">
-					<img class="img-fluid" src="img/galeria-2.png"
-					alt="Card image cap">
-				</div>
-				</div>
-
-				<div class="col-md-3 mb-3">
-				<div class="card">
-					<img class="img-fluid" src="img/galeria-legumes.png"
-					alt="Card image cap">
-				</div>
-				</div>
-
-			</div>
-			<!--/.First slide-->
-
-			<!--Second slide-->
-			<div class="carousel-item">
-
-				<div class="col-md-3 mb-3">
-				<div class="card">
-					<img class="img-fluid" src="img/galeria-sushi.png"
-					alt="Card image cap">
-				</div>
-				</div>
-
-				<div class="col-md-3 mb-3">
-				<div class="card">
-					<img class="img-fluid" src="img/galeria-2.png"
-					alt="Card image cap">
-				</div>
-				</div>
-
-				<div class="col-md-3 mb-3">
-				<div class="card">
-					<img class="img-fluid" src="img/galeria-legumes.png"
-					alt="Card image cap">
-				</div>
-				</div>
-
-				<div class="col-md-3 mb-3">
-				<div class="card">
-					<img class="img-fluid" src="img/galeria-prato.png"
-					alt="Card image cap">
-				</div>
-				</div>
-
-			</div>
-			<!--/.Second slide-->
-
-			<!--Third slide-->
-			<div class="carousel-item">
-
-				<div class="col-md-3 mb-3">
-				<div class="card">
-					<img class="img-fluid" src="img/galeria-2.png"
-					alt="Card image cap">
-				</div>
-				</div>
-
-				<div class="col-md-3 mb-3">
-				<div class="card">
-					<img class="img-fluid" src="img/galeria-legumes.png"
-					alt="Card image cap">
-				</div>
-				</div>
-
-				<div class="col-md-3 mb-3">
-				<div class="card">
-					<img class="img-fluid" src="img/galeria-prato.png"
-					alt="Card image cap">
-				</div>
-				</div>
-
-				<div class="col-md-3 mb-3">
-				<div class="card">
-					<img class="img-fluid" src="img/galeria-sushi.png"
-					alt="Card image cap">
-				</div>
-				</div>
-
-  </div>
-  <!--/.Third slide-->
-
-</div>
-<!--/.Slides-->
-
-</div>
-<!--/.Carousel Wrapper-->
-	</div>
+			<!--/.Carousel Wrapper-->
+		</div>
+	
 </div>
 <!-- Fim Galeria !-->
 
@@ -446,7 +462,7 @@
 				<div class="row espaco-span">
 					<div class="col-sm-1 icone-rodape"><i class="fab fa-whatsapp yellow"></i></div>	
 					<div class="col-sm-11 text-left">
-						<span><strong>Peça pelo What's</strong></span><span>(13)33-000</span>
+					<a href="https://wa.me/5513991239149" class="txt-branco"><span><strong>Peça pelo What's</strong></span></a><span>(13)33-000</span>
 					</div>
 				</div>
 			</div>
@@ -455,17 +471,18 @@
 				<p class="text-center bemvindo-rodape txt-branco">Seja bem vindo(a) ao nosso <strong>Bungalow</strong> e bom apetite</p>
 			</div>
 			<div class="col-md-4 text-center ">
-				<a href="#"><i class="fab fa-instagram fa-2x yellow sociais-rodape"></i></a>
-				<a href="#"><i class="fab fa-whatsapp fa-2x yellow sociais-rodape"></i></a>
-				<a href="#"><i class="fab fa-facebook-square fa-2x yellow sociais-rodape"></i></a>
+				<a href="https://www.instagram.com/bungalowsushi/"><i class="fab fa-instagram fa-2x yellow sociais-rodape"></i></a>
+				<a href="https://wa.me/5513991239149"><i class="fab fa-whatsapp fa-2x yellow sociais-rodape"></i></a>
+				<a href="https://www.facebook.com/bungalowsushi/?ref=py_c"><i class="fab fa-facebook-square fa-2x yellow sociais-rodape"></i></a>
 			</div>
 		</div>
 	</div>
+	
 </footer>
 <!-- Fim Footer !-->
 
 <!-- script js para bootstrap !-->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="script.js"></script>

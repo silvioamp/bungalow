@@ -2,79 +2,113 @@ function Mudarestado(el) {
     var display = document.getElementById(el).className;
     var divId = document.getElementById(el);
     var icon = document.getElementsByClassName("icone-seta");
-    console.log(icon);
 
     if(display == "d-none"){
         divId.className = "d-block";
         icon[0].className = "fas fa-chevron-up icone-seta";
+        var elemento = "#"+el;
+        console.log(elemento);
+        rolar_para(elemento);
     }else{
         divId.className = "d-none";
         icon[0].className = "fas fa-chevron-down icone-seta";
 }}
 
+function rolar_para(element){
+  $('html, body').animate({
+    scrollTop : $(element).offset().top
+  }, 500);
+}
+
+
 $(document).ready(function(){
 
-  if($.trim($(".content").html()) == ''){
-    ajaxTipo('entradas');
+  if($.trim($("#content").html()) == ''){
+    ajaxTipo(retornaArquivo('Entradas'), false);
   }
 
   $('.getpage').click(function() {
 
     var tipo = retornaArquivo($(this).text());
 
-    ajaxTipo(tipo);
- 
+    var href = $(this).attr("href");
+
+    if(href.substring(0,1) == "#"){
+      ajaxTipo(tipo, true);
+    }else{
+      ajaxTipo(tipo, false);
+    }
+
     
   });
 
 });
 
-function ajaxTipo(tipo){
+function ajaxTipo(tipo, anima){
   $.ajax({
     url:tipo,
     dataType:'html',
-    success:function(html)
-{
-  $(".content").fadeOut(0).html(html).fadeIn(500);
-}    });
+    success:function(html){
+        $("#content").fadeOut(0).html(html).fadeIn(500);
+        if(anima){
+          $('html, body').animate({
+            scrollTop : $("#content").offset().top
+          }, 500);
+        }
+       
+  }});
 }
 
 function retornaArquivo(texto){
   switch(texto){
     case 'Entradas':
-        return "entradas";
+        return "entradas.php";
     break;
     case 'Hot Roll':
-        return "hotroll";
+        return "hotroll.php";
     break;
     case 'Combinados':
-        return "combinados";
+        return "combinados.php";
     break;
     case 'Temakis':
-        return "temakis";
+        return "temakis.php";
     break;
     case 'Niguiris':
-        return "niguiris";
+        return "niguiris.php";
     break;
     case 'Uramakis e outros':
-        return "uramakis";
+        return "uramakis.php";
     break;
     case "Joy's":
-        return "joys";
+        return "joys.php";
     break;
     case 'Bebidas':
-        return "bebidas";
+        return "bebidas.php";
     break;
 
   }
 }
 
-  function mostraResposta(id){
-    respostas = document.getElementsByClassName('faq'); //recupera todos elementos da classe faq
-    for (var i = 0; i < respostas.length; i++) { // coloca todos eles invisiveis
-      respostas[i].style.display = 'none'; 
-    }
-    
-    clicada = document.getElementById(id); //recupera o id passado por argumento
-    clicada.style.display = 'inherit'; //faz ele ser exibido conforme o item pai
-  }
+
+
+
+$('a.link').click(function(event) {
+  event.preventDefault();
+  $('div.content').html($('div', this).html());
+});
+
+
+jQuery(document).ready(function() {
+  $(window).scroll(function () {
+      var set = $(document).scrollTop()+"px";
+      jQuery('#cubo').animate({
+          top:set
+      },
+      {
+          duration:1000,
+          queue:false
+      });
+  });
+});
+
+

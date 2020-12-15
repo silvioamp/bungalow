@@ -1,8 +1,17 @@
+@media (min-width: 320px) { 
+    .menu-size-small{
+        margin-left:5%;
+    }
+}
 @media (min-width: 768px) {
     .carousel-multi-item-2 .col-md-3 {
     float: left;
     width: 25%;
-    max-width: 100%; } }
+    max-width: 100%; 
+}
+
+
+}
     
     .carousel-multi-item-2 .card img {
     border-radius: 2px; }
@@ -18,18 +27,31 @@
         border: none;
         font-size: xx-large;
     }
+   
+   
 
-
-    @media (max-width: 716px) { 
+    
+    @media (max-width: 575.98px) { 
        .esconde, .barra, .pontos, .tag-sociais{
             display: none;
         }
+      
 
         hr{
-            width:64%;
+            width:55%;
         }
+
+        h3 {
+            font-family: "Nunito bold";
+            color: #638755;
+            font-size: 24px;
+            padding-top: 20%;
+            padding-right: 10%;
+            text-align: left;
+        }
+
         .icone-teste{
-            position: absolute;
+            position:absolute;
             top: 153%;
             left: 18%;
         }
@@ -39,8 +61,21 @@
         .bemvindo-rodape{
             padding: 0% 28%;
         }
-        .retangulo{
-            height: 220px;
+      
+        .menu-secundario {
+            color: #717171;
+            padding: 0%;
+        }
+
+        header .container nav ul li a {
+            /* padding: 2px 10px; */
+            display: inline-block;
+            color: #FFF;
+            text-decoration: none;
+            margin: 0px;
+        }
+        .retangulo {
+            height: 155px;
             background-color: #638755;
             border-radius: 25px;
             /* margin-top: 5%; */
@@ -51,10 +86,18 @@
         .text-left{
             text-align: center!important;
         }
+
         .sociais-rodape{
             margin-top: 10%;
             margin-left: 5%;
             margin-bottom: 8%;
+        }
+
+        button{
+            background: none;
+            border: none;
+            font-size: xx-large;
+            color:#737373;
         }
         
 
@@ -113,11 +156,24 @@
 
 
         }
+        footer a:link, header a:link{
+            text-decoration: none;
+        }
 
+        .mobile-menu{
+            margin:2%;
+        }
+
+/* teste css menu mobile */
+
+
+
+/*fim teste */
+       
      }
 
 
-     @media (min-width: 992px) and (max-width: 1400.98px) { 
+     @media (min-width: 768px) and (max-width: 991.98px) { 
         .barra{
             position: absolute;
             top:95%;
@@ -131,4 +187,64 @@
             position: relative;
             margin-bottom: 5%;
          }
+         hr {
+            width: 63%;
+            background-color: #638755;
+            box-align: left;
+            border-top-width: 3px;
+            margin-top: 0;
+            margin-right: 61%;
+         }
+         .menu-secundario {
+            color: #717171;
+            padding:0%;
+        }
+        .barra {
+            position: absolute;
+            top: 77%;
+        }
+        header .container nav ul li a {
+            padding: 2px 1px;
+            display: inline-block;
+            color: #FFF;
+            text-decoration: none;
+            margin: 15px;
+        }
+        #cubo {
+            width: 120%;
+            height: 65%;
+            background-color: #638755;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .esconde-tablet{
+            display: none;
+        }
+        .retangulo {
+            height: 30%;
+            background-color: #638755;
+            border-radius: 25px;
+            margin-top: 5%;
+            padding: 2% 2%;
+            position: relative;
+            margin-bottom: 4%;
+        }
+        
+        
+
      }
+
+     @media (min-width: 992px){
+        
+      .retangulo {
+        height: 30%;
+        background-color: #638755;
+        border-radius: 25px;
+        margin-top: 5%;
+        padding: 2% 2%;
+        position: relative;
+        margin-bottom: 4%;
+    }
+    }
+
+  

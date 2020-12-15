@@ -10,6 +10,8 @@ html, body {
     text-decoration: none;
 }
 
+
+
 header{
     height: 75vh;
     width: 100%;
@@ -71,17 +73,14 @@ header .container nav ul li a{
 }
 .barra{
     position: absolute;
-    top:79%;
+    top:8%;
 }
 .pontos{
    
     text-align: right;
 }
 
-.teste{
-    padding-top:2%;
-    padding-bottom: 2%;
-}
+
 .yellow{
     color:#FFCC5A;
     
@@ -182,6 +181,9 @@ strong.verde{
    padding: 2% 2%;
    position: relative;
 }
+.retangulo a:hover{
+    list-style: none;
+}
 
 #barra-vegan{
     background-color: #638755;
@@ -232,13 +234,16 @@ h3{
     color:#638755;
 }
 
+.txt-branco{
+    color: #FFF;
+    
+}
+
 #quemsomos a:link{
     text-decoration: none;
 }
 
-.txt-branco{
-    color: #FFF;
-}
+
 
 .cinza{
     color: #737373;
@@ -256,7 +261,7 @@ h3{
 }
 .galeria-fotos{
     color: #638755;
-    font-size: 200%;
+    font-size: 150%;
     padding-top: 2%;
     
 }
@@ -314,10 +319,25 @@ p{
     padding: 1% 0%;
 }
 
-.faq {
-    margin: 20px;
-    display: none; /* coloca todos como invisiveis inicialmente */
-  }
+
+/*teste*/
+
+.float-banner {
+    position: absolute;
+    left: 50%;
+    width: 200px; height: 200px;
+    margin-top: 200px; margin-left: -200px;
+}
+
+.navbar {
+    margin-top: 6%;
+    padding: 0 !important;
+}
+#bg-quemsomos{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 
 
   
