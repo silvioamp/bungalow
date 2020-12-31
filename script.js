@@ -76,11 +76,14 @@ function retornaArquivo(texto){
     case 'Niguiris':
         return "niguiris.php";
     break;
-    case 'Uramakis e outros':
+    case 'Uramakis':
         return "uramakis.php";
     break;
-    case "Joy's":
-        return "joys.php";
+    case 'Hossomakis':
+        return "hossomakis.php";
+    break;
+    case "Gunkan":
+        return "gunkan.php";
     break;
     case 'Bebidas':
         return "bebidas.php";
@@ -109,6 +112,11 @@ jQuery(document).ready(function() {
           queue:false
       });
   });
+});
+
+/*funcao para menu principal*/
+$(function(){
+  $(".button-collapse").sideNav();
 });
 
 

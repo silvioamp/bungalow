@@ -1,32 +1,34 @@
 <div class="background-niguiri" id="niguiris">
 <div class="row">
-			<div class="col-sm-4 "><h4 class="txt-verde espaco-cardapio">Niguiris - 2 Unidades</h4></div>
-			<div class="col-sm-2"></div>
-			<div class="col-sm-4"></div>
-			<div class="col-sm-2"></div>
+			<div class="col-sm-6 "><h4 class="txt-verde espaco-cardapio">Niguiris - 2 unidades</h4></div>
+			
 		</div>
 		<div class="row">
-			<div class="col-sm-4"><h5>Niguiri de Pimentão Vermelho Confitado</h5><p>Niguiri feito com pimentão vermelho confitado , raiz forte, broto de manjericão e crispy de cebola.</p></div>
-			<div class="col-sm-2"><p>R$ 14,00</p></div>
-			<div class="col-sm-4"><h5>Niguiri de Nirá Grelhado</h5><p>Niguiri feito com nirá grelhado, crispy de cebola e maionese de alho assado.</p></div>
-			<div class="col-sm-2"><p>R$14,00</p></div>
+			<div class="col-sm-4"><h5>Niguiri de Pimentão Vermelho</h5><p>Niguiri feito de arroz, pimentão vermelho confitado na manteiga de macadâmia, molho pesto e broto de coentro</p></div>
+			<div class="col-sm-2"><p>R$ 7,90</p></div>
+			<div class="col-sm-4"><h5>Niguiri de Abobrinha</h5><p>Niguiri feito de arroz, abobrinha confitada na manteiga de macadâmia, molho pesto e flor comestível</p></div>
+			<div class="col-sm-2"><p>R$7,90</p></div>
 		</div>
 		<div class="row">
-			<div class="col-sm-4"><h5>Niguiri de Pimentão Amarelo Confitado</h5><p>Niguiri feito com pimentão amarelo confitado, missô, broto de manjericão e crispy de alho poró.</p></div>
-			<div class="col-sm-2"><p>R$ 14,00</p></div>
-			<div class="col-sm-4"><h5>Niguiri de Avocado</h5><p>Niguiri feito com avocado, limão siciliano e broto de coentro.</p></div>
-			<div class="col-sm-2"><p>R$17,00</p></div>
+			<div class="col-sm-4"><h5>Niguiri de Pimentão Amarelo</h5><p>Niguiri feito de arroz, pimentão amarelo confitado na manteiga de macadâmia, molho pesto e broto de coentro.</p></div>
+			<div class="col-sm-2"><p>R$ 7,90</p></div>
+			<div class="col-sm-4"><h5>Niguiri de Avocado</h5><p>Niguiri feito de arroz, lâminas de avocado, mayo vegana especial, broto de manjericão e raspas de limão siciliano</p></div>
+			<div class="col-sm-2"><p>R$9,90</p></div>
 		</div>
 		<div class="row">
-			<div class="col-sm-4"><h5>Niguiri de Aspargos Confitados</h5><p>Niguiri feito com aspargos confitados, maionese de alho assado e flor de sal.</p></div>
-			<div class="col-sm-2"><p>R$ 19,00</p></div>
-			<div class="col-sm-4"><h5>Niguiri de Abobrinha Confitada</h5><p>Niguiri feito com abobrinha confit, maionese de pimenta defumada e pimenta togarashi.</p></div>
-			<div class="col-sm-2"><p>R$14,00</p></div>
+			<div class="col-sm-4"><h5>Niguiri de Aspargos</h5><p>Niguiri feito de arroz, aspargos confitado na manteiga de macadâmia, mayo vegana de alho assado e flor de sal.</p></div>
+			<div class="col-sm-2"><p>R$ 8,90</p></div>
+			<div class="col-sm-4"><h5>Niguiri de Shitake e Aspargos</h5><p>Niguiri feito de arroz, shitake e aspargos confitado, mayo vegana de alho assado e flor comestível</p></div>
+			<div class="col-sm-2"><p>R$8,90</p></div>
 		</div>
 		<div class="row">
-			<div class="col-sm-4"><h5>Niguiri de Shitake e Aspargos Confitados</h5><p>Niguiri feito com shitake na manteiga vegana, aspargos confitados, cebolinha e pimenta layu.</p></div>
-			<div class="col-sm-2"><p>R$ 22,00</p></div>
-			<div class="col-sm-4"><h5>Niguiri de Cogumelo Eringui e Nirá</h5><p>Niguiri feito com cogumelo eringui na manteiga vegana, azeite trufado, nirá, maionese de pimenta defumada e cebolinha.</p></div>
-			<div class="col-sm-2"><p>R$18,00</p></div>
+			<div class="col-sm-4"><h5>Niguiri de Tofu</h5><p>Niguiri feito de arroz, tofu grelhado, mayo vegana de wassabi e crispy de cebola</p></div>
+			<div class="col-sm-2"><p>R$ 7,90</p></div>
+			<div class="col-sm-4"><h5>Niguiri de Coco</h5><p>Niguiri feito de arroz, carne de coco, molho pesto e flor comestível</p></div>
+			<div class="col-sm-2"><p>R$8,90</p></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4"><h5>Niguiri de Jolly Fish</h5><p>Niguiri feito de arroz, salmão ã base de jaca e ervilha, cream cheese ã base de castanha de caju e cebolinha</p></div>
+			<div class="col-sm-2"><p>R$ 11,90</p></div>
 		</div>
 </div>

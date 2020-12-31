@@ -6,21 +6,25 @@
 			<div class="col-sm-2"></div>
 		</div>
 		<div class="row">
-			<div class="col-sm-4"><h5>Temaki de Shimeji Preto na Manteiga</h5><p>Temaki feito com shimeji na manteiga vegana e cabolinha.</p></div>
-			<div class="col-sm-2"><p>R$ 29,00</p></div>
-			<div class="col-sm-4"><h5>Temaki de Shitake na Manteiga</h5><p>Shitaje na manteiga vegana e nirá grelhado.</p></div>
-			<div class="col-sm-2"><p>R$29,00</p></div>
+			<div class="col-sm-4"><h5>Temaki de Shimeji</h5><p>Temaki feito de arroz, shimeji confitado na manteiga de macadâmia e cebolinha.</p></div>
+			<div class="col-sm-2"><p>R$ 19,90</p></div>
+			<div class="col-sm-4"><h5>Temaki de Shitake </h5><p>Temaki feito de arroz, shitake confitado na manteiga de macadâmia e cebolinha.</p></div>
+			<div class="col-sm-2"><p>R$19,90</p></div>
 		</div>
 		<div class="row">
-			<div class="col-sm-4"><h5>Temaki de Mix de Cogumelos e Maionese de Wassabi</h5><p>Temaki feito com cogumelos e maionese de wassabi.</p></div>
-			<div class="col-sm-2"><p>R$ 29,00</p></div>
-			<div class="col-sm-4"><h5>Temaki Caponata</h5><p>Temaki feito com abobrinha, berinjela e pimentão vermelho.</p></div>
-			<div class="col-sm-2"><p>R$22,00</p></div>
+			<div class="col-sm-4"><h5>Temaki de Shimeji Empanado</h5><p>Temaki feito de arroz, shimeji empanado na farinha Panko, tarê e mix de gergelim.</p></div>
+			<div class="col-sm-2"><p>R$ 20,90</p></div>
+			<div class="col-sm-4"><h5>Temaki de Palmito Empanado</h5><p>Temaki feito de arroz, palmito empanado na farinha Panko, tarê e mix de gergelim.</p></div>
+			<div class="col-sm-2"><p>R$20,90</p></div>
 		</div>
 		<div class="row">
-			<div class="col-sm-4"><h5>Temaki Califórnia </h5><p>Temaki feito com avocado, manga, broto de coentro, pepino e gergelim.</p></div>
-			<div class="col-sm-2"><p>R$ 22,00</p></div>
-			<div class="col-sm-4"><h5>Temaki de Kakiaguê Fry</h5><p>Temaki de cogumelos fry, batido com maionese de wassabi, cebolinha e gergelim.</p></div>
-			<div class="col-sm-2"><p>R$29,00</p></div>
+			<div class="col-sm-4"><h5>Temaki de Mix de Cogumelos</h5><p>temaki feito de arroz, mix de shimeji e shitake confitado na manteiga de macadâmia, cream cheese à base de castanha de caju e cebolinha</p></div>
+			<div class="col-sm-2"><p>R$ 21,90</p></div>
+			<div class="col-sm-4"><h5>Temaki California</h5><p>Temaki feito de arroz, pepino, manga, avocado e mix de gergelim.</p></div>
+			<div class="col-sm-2"><p>R$21,90</p></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4"><h5>Temaki de Jolly fish</h5><p>Temaki feito de arroz, salmão à base de jaca e ervilha, cream cheese ã base de castanha de caju e cebolinha</p></div>
+			<div class="col-sm-2"><p>R$ 24,90</p></div>
 		</div>
 </div>

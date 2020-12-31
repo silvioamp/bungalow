@@ -6,18 +6,18 @@
 			<div class="col-sm-2"></div>
 		</div>
 		<div class="row">
-			<div class="col-sm-10"><h5>Combinado Sugoi - 23 peças</h5>
-			<p>1 Appa maki, 1 asparagusu maki, 1 uramaki califórnia, 1 niguiri de pimentão vermelho, 1 niguiri de abobrinha, 1 niguiri de aspargos confit, 1 niguiri de shitake, 1 niguiri de avocado, 1 niguiri de nirá, 1 uramaki tempurá, 1 niguiri de pimentão amarelo, 1 niguiri de cogumelo eringui, 1 futomaki de berinjela defumada, 1 baterá de cogumelos, 1 uramaki caponata, 1 acelgamaki de kiimchi, 1 joy a italiana, 1 joy de alga e wakame, 1 joy de alga e shimeji, 1 joy de pepino e guacamole, 1 joy de abobrinha.</p></div>
-			<div class="col-sm-2"><p>R$ 72,00</p></div>
+			<div class="col-sm-10"><h5>Combinado 14 peças</h5>
+			<p>2 gunkans de cenoura e edamame, e hossomakis de tempurá, 2 uramakis de califórnia roll, 2 uramakis de avocado roll, 1 niguiri de pimentão vermelho, 1 niguiri de pimentão amarelo, 2 niguiris de shitake e aspargos, 2 niguiris de abobrinha.</p></div>
+			<div class="col-sm-2"><p>R$ 38,90</p></div>
 		</div>
 		<div class="row">
-			<div class="col-sm-10"><h5>Combinado Heikin Saizu - 16 peças</h5>
-			<p>1 Niguiri de aspargos confit, 1 niguiri de shitake, 1 niguiri de avocado, 1 niguiri de nirá, 1 uramaki tempurá, 1 niguiri de pimentão amarelo, 1 acelgamaki e kiimchi, 1 uramaki caponata, 1 baterá de cogumelos, 1 futomaki de berinjela defumada, 1 niguiri de cogumelo eringui, 1 joy de abobrinha, 1 joy de pepino e guacamole, 1 joy de alga e shimeji, 1 joy de alga e wakame, 1 joy a italiana.</p></div>
-			<div class="col-sm-2"><p>R$ 62,00</p></div>
+			<div class="col-sm-10"><h5>Combinado  20 peças</h5>
+			<p>2 gunkans de cenoura e edamame, 2 gunkans de abobrinha e pimentões, 2 hossomakis de tempurá, 2 hossomakis de shimeji, 2 uramakis de califórnia roll, 2 uramkakis de avocado roll, 1 niguiri de pimentão vermelho, 1 niguiri de pimentão amarelo, 2 niguiris de shitake e aspargos, 2 niguiris de abobrinha, 2 niguiris de coco</p></div>
+			<div class="col-sm-2"><p>R$ 56,90</p></div>
 		</div>
 		<div class="row">
-			<div class="col-sm-10"><h5>Combinado Sukoshi - 12 Peças </h5>
-			<p>1 Baterá de cogumelos, 1 futomaki de couve manteiga e berinjela defumada, 1 niguiri de shitake, 1 joy de abobrinha e pimetões confit, 1 jyo de pepino e guaca mole, 1 uramaki tempurá, 1 uramaki caponata, 1 joy de alga e shimeji, 1 niguiri de nirá, 1 iguiri pimentão vermelho, 1 niguiri de abobrinha, 1 niguiri de aspargos.</p></div>
-			<div class="col-sm-2"><p>R$ 52,00</p></div>
+			<div class="col-sm-10"><h5>Combinado 26 Peças </h5>
+			<p>2 gunkans de cenoura e edamame, 2 gunkans de nabo e romã, 2 gunkans de pepino e guacamole, 2 hossomakis de pepino, 2 hossomakis de tempurá, 2 uramakis de califórnia roll, 2 uramakis de avocado roll, 2 uramakis de shimeji roll, 1 niguiri de pimentão vermelho, 1 niguiri de pimentão amarelo, 2 niguiris de shitake e aspargos, 2 niguiris de tofu, 2 niguiris de coco, 2 niguiris de avocado.</p></div>
+			<div class="col-sm-2"><p>R$ 77,90</p></div>
 		</div> 
 </div>

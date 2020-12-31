@@ -5,15 +5,15 @@ RewriteBase /teste
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^Pagina-Inicial\/?$ index.php?acessando=home [L]
-RewriteRule ^entradas\/?$ /teste/index.php?acessando=entradas [L]
+RewriteRule ^inicio\/?$ index.php?acessando=iniccio [L]
+RewriteRule ^entradas\/?$ index.php?acessando=entradas [L]
 RewriteRule ^hotroll\/?$ index.php?acessando=hotroll [L]
 RewriteRule ^combinados\/?$ index.php?acessando=combinados [L]
 RewriteRule ^temakis\/?$ index.php?acessando=temakis [L]
 RewriteRule ^niguiris\/?$ index.php?acessando=niguiris [L]
 RewriteRule ^uramakis\/?$ index.php?acessando=uramakis [L]
-RewriteRule ^joys\/?$ index.php?acessando=joys [L]
+RewriteRule ^gunkan\/?$ index.php?acessando=gunkan [L]
 RewriteRule ^bebidas\/?$ index.php?acessando=bebidas [L]
-RewriteRule ^quemsomos\/?$ index.php?acessando=quemsomos [L]
+RewriteRule ^hossomakis\/?$ index.php?acessando=hossomakis [L]
 RewriteRule ^cardapio\/?$ index.php?acessando=cardapio [L]
 RewriteRule ^fotos\/?$ index.php?acessando=fotos [L]

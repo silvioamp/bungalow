@@ -3,49 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+    <!--<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">!-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="lightbox/src/css/lightbox.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="materialize.css">
+	<link rel="stylesheet" href="paw/public/css/pawcarousel.css">
 	<link rel="stylesheet" href="fontawesome/css/all.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="mobile.css">
+	
     <title>Bungalow | Plant-Based Sushi</title>
 </head>
 
 <!-- Inicio Header !-->
 <header>
+
+<nav class="d-xl-none esconde-tablet" id="shadow">
+     				<div class="nav-wrapper">
+         				<a href="#" class="brand-logo"><img class="imagem" src="img/logo-bungalow.png"></a>
+        				 <a href="#" data-activates="menu-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        
+						<ul class="side-nav" id="menu-mobile">
+							<li><a href="#quemsomos" class="txt-branco">Início</a></li>
+							<li><a href="#cardapio">Cardápio</a></li>
+							<li><a href="#galeria">Fotos</a></li>
+							<li><a href="#contato">Contato</a></li>
+							<li><a href="https://www.facebook.com/bungalowsushi/?ref=py_c"><i class="fab fa-facebook-square fa-2x sociais" style="color:#FFCC5A"></i><i class="fab fa-instagram fa-2x sociais " style="color:#FFCC5A"></i></a></li>
+							<li><a href="https://www.instagram.com/bungalowsushi/"><i class="fab fa-instagram fa-2x sociais " style="color:#FFCC5A"></i></a></li>
+						</ul>
+					</div>
+</nav>
+
+
     <div class="container">
         <div class="row"><!-- Inicio row !-->
-			<div class="col-sm-2">
-					<div class="row">
-						<img id=logo src="img/logo-bungalow.png">
-
-							
-						
-						
-						<nav class="navbar navbar-default navbar-fixed-top d-xl-none mobile-menu">
-							<div class="container">
-								<div class="navbar-header ">
-									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i class="fas fa-bars"></i>
-									</button>
-								</div>
-								<div id="navbar" class="navbar-collapse collapse">
-									<ul class="nav">
-										<li class="nav-item"><a class="nav-link active" href="#quemsomos">Início</a></li>
-										<li class="nav-item"><a class="nav-link active" href="#cardapio">Cardápio</a></li>
-										<li class="nav-item"><a class="nav-link active" href="#galeria">Fotos</a></li>
-										<li class="nav-item"><a class="nav-link active" href="#contato">Contato</a></li>
-									</ul>
-								</div>
-							</div>
-						</nav>
-					</div>
+			<div class="col-sm-2 esconde">
+				<div class="row">
+					<img id=logo src="img/logo-bungalow.png">
+											
 				</div>
-				<!-- Aqui comeca tudo ok !-->
+			</div>
+				 
 				<div class="col-sm-6">
 					
-					<nav class="esconde">
+					<nav class="esconde" id="shadow">
 						<ul class="nav justify-content-center">
 							<li class="nav-item"><a class="nav-link active" href="#quemsomos">Inicio</a></li>
 							<li class="nav-item"><a class="nav-link active" href="#cardapio">Cardápio</a></li>
@@ -56,18 +60,19 @@
 				</div>
 				<div class="col-sm-2 text-center esconde">
 					<div id="cubo">
-						<span class="goomer"><a href="https://www.goomer.app/bungalowsushi"><strong class="yellow">Peça agora!</strong></a></span>
+						<span class="goomer"><a href="https://www.goomer.app/bungalowsushi"><strong class="amarelo">Peça agora!</strong></a></span>
 						<a href="https://www.goomer.app/bungalowsushi"><img class="icone" src="img/googmer@2x.png"></a>
 					</div>
 				</div>
 				<div class="col-sm-2 tag-sociais">
 				
-				<a href="https://www.facebook.com/bungalowsushi/?ref=py_c"><i class="fab fa-facebook-square fa-2x sociais"></i></a>
-				<a href="https://www.instagram.com/bungalowsushi/"><i class="fab fa-instagram fa-2x sociais"></i></a>
-				
-			</div>
+					<a href="https://www.facebook.com/bungalowsushi/?ref=py_c"><i class="fab fa-facebook-square fa-2x sociais"></i></a>
+					<a href="https://www.instagram.com/bungalowsushi/"><i class="fab fa-instagram fa-2x sociais"></i></a>
+					
+				</div>
 		</div><!-- fim row !-->
-        <div class="row desce">
+        
+		<div class="row desce">
             <div class="col"></div>
             <div class="col text-center"><img src="img/logo-casa.png"></div>         
             <div class="col"></div>
@@ -83,20 +88,20 @@
         </div>
         <div class="row ">
 			<div class="col-md-4"></div>
-			<div class="col-md-4"><p class="text-center txt-branco">PLANT-BASED SUSHI</p></div>
+			<div class="col-md-4"><p class="text-center txt-branco">PLANT-BASED  SUSHI</p></div>
 			<div class="col-md-4"></div>
 		</div>
         <div class="row retangulo">
-				<div class="col-md-1 esconde"><i class="fab fa-whatsapp yellow icone-teste"></i></div>
+				<div class="col-md-1 esconde"><i class="fab fa-whatsapp amarelo icone-teste"></i></div>
 				<div class="col-md-3 text-left esconde">
-					<a href="https://wa.me/5513991239149"><span>Peça pelo What's</span></a><span>(00) 0000-000</span>
+					<a href="https://wa.me/551333852500"><span>Peça pelo What's</span></a><span>(13) 3385-2500</span>
 				</div>
-				<div class="col-md-1"><i class="fas fa-mobile-alt yellow icone-teste"></i></div>
+				<div class="col-md-1"><i class="fas fa-mobile-alt amarelo icone-teste"></i></div>
 				<div class="col-md-3 text-left">
 					
 				<a href="https://www.goomer.app/bungalowsushi"><span>Peça pelo Goomer</span></a><a href="https://www.goomer.app/bungalowsushi"><img src="img/googmer.png"></a>
 				</div>
-				<div class="col-md-1"><i class="far fa-clock yellow icone-teste"></i></div>
+				<div class="col-md-1"><i class="far fa-clock amarelo icone-teste"></i></div>
 				<div class="col-md-3 text-left">
 					
 				<span>Funcionamento</span><span>Ter - Dom | 18h às 23h</span>
@@ -148,47 +153,46 @@
 </div>
 <!-- Inicio Section !-->
 <div class="container">
-<section id="quemsomos">
-	<article>
-		<div class="row">
-			<div class="col-md-6">
-			<h3>
-				<strong class="verde">Somos uma casa pequena e aconchegante, mas nossa vontade de crescer é tão grando quanto nosso propósito</strong>
-			</h3>
-			<p class="txt-principal">Com identidade um tanto rústica, com raízes na praia ou em lugares que têm conexão com a natureza, nasceu o <span class="cinza">Bungalow Plant-Based Sushi.</span>O primeiro capítulo de nossa história começa na cidade de Santos, mas em breve nos veremos pelo Brasil!</p>
-		
-			<a onclick="Mudarestado('saibamais');" class="txt-verde" href="javascript:void(0);"><strong class="verde">Saiba mais sobre a gente</strong><i class="fas fa-chevron-down icone-seta"></i></a>
-			<hr>
-			</div>
-			<div class="col-md-6">
-				<figure class="figure" >
-					<img class="imagem-front img-fluid" src="img/img-sushi.png">
-				</figure>
-			</div>
-		</div>
-		<div class="d-none" id="saibamais">
+	<section id="quemsomos">
+		<article>
 			<div class="row">
-				<div class="col-md-6 esconde">
-				<figure class="figure" >
-						<img class="imagem-front img-fluid" src="img/img-sushi.png">
-				</figure>
+				<div class="col-md-6">
+				<h3>
+					<strong class="verde">Somos uma casa pequena e aconchegante, mas nossa vontade de crescer é tão grando quanto nosso propósito.</strong>
+				</h3>
+				<p class="txt-principal">Com identidade um tanto rústica, com raízes na praia ou em lugares que têm conexão com a natureza, nasceu o <span class="cinza">Bungalow Plant-Based Sushi.</span> O primeiro capítulo de nossa história começa na cidade de Santos, mas em breve nos veremos pelo Brasil!</p>
+			
+				<a onclick="Mudarestado('saibamais');" class="txt-verde" href="javascript:void(0);"><strong class="verde">Saiba mais sobre a gente</strong><i class="fas fa-chevron-down icone-seta"></i></a>
+				<hr>
 				</div>
 				<div class="col-md-6">
-					<p class="txt-secundario">Mas antes de plantarmos raízes em terras caiçaras, viajamos pela Ásia e nos inspiramos no Hindi para criar a nossa marca. Bungalow vem da palavra “Baṅglo”, da língua Guzerati, que por sua vez vem do hindi “Baṅglã”, que significa “Casa no estilo de Bengala”, uma região histórica do Sul da Ásia.</p>
-					<p class="txt-secundario">Essas casas eram consideradas tradicionais por serem pequenas, com apenas um andar e com uma varanda na entrada. Diferente dos Bangalôs modernos, que podem ser maiores com até um andar e meio, uma Baṅglã traz o aconchego de uma casa pequena em tamanho, mas gigante pelas lembranças marcantes e experiências que nela acontecem!</p>
-					<figure class="figure d-xl-none" >
+					<figure class="figure" >
 						<img class="imagem-front img-fluid" src="img/img-sushi.png">
 					</figure>
-					<p class="txt-secundario">Da conexão que temos com a natureza fazemos sushi vegano à base de plantas, tão gostoso e saboroso quanto o sushi tradicional feito com peixe. Aqui você irá se sentir em casa ao provar alimentos frescos, saborosos, naturais e orgânicos, que respeitam todos os seres vivos, principalmente os animais.</p>
-					<p class="txt-secundario">Prometemos levar a qualidade do melhor sushi plant-based até o conforto do seu Bungalow. Valorizamos a sustentabilidade, alimentamos a alma e proporcionamos a você a experiência de uma dark-kitchen, onde o atendimento é feito totalmente pela internet, sem ser presencial!</p>
-					<p class="txt-verde"><strong class="verde">Seja bem-vindo(a) ao nosso Bungalow e bom apetite!</strong></p>	
 				</div>
-				
 			</div>
-		</div>
-	</article>
-	
-</section>
+			<div class="d-none" id="saibamais">
+				<div class="row">
+					<div class="col-md-6 esconde">
+					<figure class="figure" >
+							<img class="imagem-front img-fluid" src="img/img-sushi.png">
+					</figure>
+					</div>
+					<div class="col-md-6">
+						<p class="txt-secundario">Mas antes de plantarmos raízes em terras caiçaras, viajamos pela Ásia e nos inspiramos no Hindi para criar a nossa marca. Bungalow vem da palavra “Baṅglo”, da língua Guzerati, que por sua vez vem do hindi “Baṅglã”, que significa “Casa no estilo de Bengala”, uma região histórica do Sul da Ásia.</p>
+						<p class="txt-secundario">Essas casas eram consideradas tradicionais por serem pequenas, com apenas um andar e com uma varanda na entrada. Diferente dos Bangalôs modernos, que podem ser maiores com até um andar e meio, uma Baṅglã traz o aconchego de uma casa pequena em tamanho, mas gigante pelas lembranças marcantes e experiências que nela acontecem!</p>
+						<figure class="figure d-xl-none" >
+							<img class="imagem-front img-fluid" src="img/img-sushi.png">
+						</figure>
+						<p class="txt-secundario">Da conexão que temos com a natureza fazemos sushi vegano à base de plantas, tão gostoso e saboroso quanto o sushi tradicional feito com peixe. Aqui você irá se sentir em casa ao provar alimentos frescos, saborosos, naturais e orgânicos, que respeitam todos os seres vivos, principalmente os animais.</p>
+						<p class="txt-secundario">Prometemos levar a qualidade do melhor sushi plant-based até o conforto do seu Bungalow. Valorizamos a sustentabilidade, alimentamos a alma e proporcionamos a você a experiência de uma dark-kitchen, onde o atendimento é feito totalmente pela internet, sem ser presencial!</p>
+						<p class="txt-verde"><strong class="verde">Seja bem-vindo(a) ao nosso Bungalow e bom apetite!</strong></p>	
+					</div>
+					
+				</div>
+			</div>
+		</article>
+	</section>
 </div>
 </div>
 <!-- Fim Section !-->
@@ -242,66 +246,61 @@
 		<div class="row">
 			<div class="col-md-4"></div>
 			<div class="col-md-4"><h2 class="justify-content-center">Vegan for</h2></div>
-			<div class="col-md-4">
-		</div>
-			
+			<div class="col-md-4"></div>
 		</div>
 		<div class="row">
 			<div class="col-md-3 card-body">
-				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-world.png" alt="our planet"></figure>
+				<figure style="margin:0"><img class="img-fluid rounded mx-auto d-block" src="img/icon-world.png" alt="our planet"></figure>
 			</div>
 			<div class="col-md-3 card-body">
-				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-heart.png" alt="compassion"></figure>
+				<figure style="margin:0"><img class="img-fluid rounded mx-auto d-block" src="img/icon-heart.png" alt="compassion"></figure>
 			</div>
 			<div class="col-md-3 card-body">
-				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-health.png" alt="our health"></figure>
+				<figure style="margin:0"><img class="img-fluid rounded mx-auto d-block" src="img/icon-health.png" alt="our health"></figure>
 			</div>
 			<div class="col-md-3 card-body">
-				<figure><img class="img-fluid rounded mx-auto d-block" src="img/icon-animal.png" alt="the animals"></figure>
+				<figure style="margin:0"><img class="img-fluid rounded mx-auto d-block" src="img/icon-animal.png" alt="the animals"></figure>
 			</div>
 		</div>
 	</div>
 </div>
 <!-- Fim Barra Vegan For !-->
 
-<!-- Inicio Cardapio !-->
+<!-- Inicio Cardapio desktop !-->
 <div class="container">
 	<div id=cardapio>
-		<nav>	
+		<nav class="esconde esconde-tablet" id="shadow">	
 			<ul class="nav justify-content-center esconde esconde-tablet">
 				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Entradas</a></li>
 				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Hot Roll</a></li>
 				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Combinados</a></li>
 				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Temakis</a></li>
 				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Niguiris</a></li>
-				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Uramakis e outros</a></li>
-				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Joy's</a></li>
+				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Uramakis</a></li>
+				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Hossomakis</a></li>
+				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Gunkan</a></li>
 				<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Bebidas</a></li>
 			</ul>
 		</nav>
-		<!-- menu cardapio !-->
-				<nav class="navbar navbar-default navbar-fixed-top d-xl-none ">
-					<div class="row"><div class="col-md-4">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed cinza" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i class="fas fa-bars cinza"> Cardápio</i>
-							</button>
-						</div>
-						<div id="navbar" class="navbar-collapse collapse">
-							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#entradas">Entradas</a></li>
-							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#hotroll">Hot Roll</a></li>
-							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#combinados">Combinados</a></li>
-							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#temakis">Temakis</a></li>
-							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#niguiris">Niguiris</a></li>
-							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#uramakis">Uramakis e outros</a></li>
-							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#joys">Joy's</a></li>
-							<li class="nav-item"><a class="nav-link active menu-secundario getpage" href="#bebidas">Bebidas</a></li>
-						</div> 
-					</div>
-					</div>
-				</nav>
-			<!-- fim menu cardapio !-->
-		<div id="content">
+		<!-- menu cardapio mobile!-->
+		<div class="example-one d-xl-none">
+ 		 
+  			<nav class="example-one-header scroll">
+    			<div class="vertical-align-middle">
+					<span class="nav-cardapio"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Entradas</a></span>
+					<span class="nav-cardapio"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Hot Roll</a></span>
+					<span class="nav-cardapio"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Combinados</a></span>
+					<span class="nav-cardapio"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Temakis</a></span>
+					<span class="nav-cardapio"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Niguiris</a></span>
+					<span class="nav-cardapio"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Uramakis</a></span>
+					<span class="nav-cardapio"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Hossomakis</a></span>
+					<span class="nav-cardapio"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Gunkan</a></span>
+					<span class="nav-cardapio"><a class="nav-link active menu-secundario getpage" href="javascript:void(0);">Bebidas</a></span>
+				</div>
+			</nav>
 		</div>
+			<!-- fim menu cardapio !-->
+		<div id="content"></div>
 				
 	</div>	
 </div>
@@ -317,127 +316,173 @@
 		</div>
 	</div>
 	<div id="imagens" class="espaco-rodape">
-			<!--Carousel Wrapper-->
-			<div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
-
-					<!--Controls-->
-					<div class="controls-top text-center esconde">
-						<a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
-						<a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
-					</div>
-					<!--/.Controls-->
-
-				<!--Slides-->
-				<div class="carousel-inner" role="listbox">
-					
-					<!--First slide-->
-					<div class="carousel-item active">
-						
-						<div class="col-md-3 mb-3">
-							<div class="card">
-								<img class="img-fluid" src="img/galeria-prato.png"
-								alt="Card image cap">
-							</div>
-						</div>
-
-						<div class="col-md-3 mb-3 esconde">
-							<div class="card">
-								<img class="img-fluid" src="img/galeria-sushi.png"
-								alt="Card image cap">
-							</div>
-						</div>
-
-						<div class="col-md-3 mb-3 esconde">
-							<div class="card">
-								<img class="img-fluid" src="img/galeria-2.png"
-								alt="Card image cap">
-							</div>
-						</div>
-
-						<div class="col-md-3 mb-3 esconde">
-							<div class="card">
-								<img class="img-fluid" src="img/galeria-legumes.png"
-								alt="Card image cap">
-							</div>
-						</div>
-
-					</div>
-					<!--/.First slide-->
-
-					<!--Second slide-->
-					<div class="carousel-item">
-
-						<div class="col-md-3 mb-3">
-							<div class="card">
-								<img class="img-fluid" src="img/galeria-sushi.png"
-								alt="Card image cap">
-							</div>
-						</div>
-
-						<div class="col-md-3 mb-3 esconde">
-							<div class="card">
-								<img class="img-fluid" src="img/galeria-2.png"
-								alt="Card image cap">
-							</div>
-						</div>
-
-						<div class="col-md-3 mb-3 esconde">
-							<div class="card">
-								<img class="img-fluid" src="img/galeria-legumes.png"
-								alt="Card image cap">
-							</div>
-						</div>
-
-						<div class="col-md-3 mb-3 esconde">
-							<div class="card">
-								<img class="img-fluid" src="img/galeria-prato.png"
-								alt="Card image cap">
-							</div>
-						</div>
-
-					</div>
-					<!--/.Second slide-->
-
-					<!--Third slide-->
-					<div class="carousel-item">
-
-						<div class="col-md-3 mb-3">
-							<div class="card">
-								<img class="img-fluid" src="img/galeria-2.png"
-								alt="Card image cap">
-							</div>
-						</div>
-
-						<div class="col-md-3 mb-3 esconde">
-							<div class="card">
-								<img class="img-fluid" src="img/galeria-legumes.png"
-								alt="Card image cap">
-							</div>
-						</div>
-
-						<div class="col-md-3 mb-3 esconde">
-							<div class="card">
-								<img class="img-fluid" src="img/galeria-prato.png"
-								alt="Card image cap">
-							</div>
-						</div>
-
-						<div class="col-md-3 mb-3 esconde">
-							<div class="card">
-								<img class="img-fluid" src="img/galeria-sushi.png"
-								alt="Card image cap">
-							</div>
-						</div>
-
-					</div>
-					<!--/.Third slide-->
 				
+				<!-- galeria mobile retirada
+				<div id="carouselExampleIndicators" class="carousel slide d-xl-none" data-ride="carousel">
+					
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<a href="img/IMG_0009.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_0009.jpg" alt="imagem 1"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_0027.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_0027.jpg" alt="imagem 2"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_0048.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_0048.jpg" alt="imagem 3"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_0086.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_0086.jpg" alt="imagem 4"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_1077.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_1077.jpg" alt="imagem 5"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_1086.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_1086.jpg" alt="imagem 6"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_1118.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_1118.jpg" alt="imagem 7"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_1148.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_1148.jpg" alt="imagem 8"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_1195.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_1195.jpg" alt="imagem 9"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_1236.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_1236.jpg" alt="imagem 10"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_1315.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_1315.jpg" alt="imagem 11"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_9691.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_9691.jpg" alt="imagem 12"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_9706.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_9706.jpg" alt="imagem 13"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_9845.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_9845.jpg" alt="imagem 14"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_9856.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_9856.jpg" alt="imagem 15"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_9869.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_9869.jpg" alt="imagem 16"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_9911.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_9911.jpg" alt="imagem 17"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_9963.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_9963.jpg" alt="imagem 18"></a>
+						</div>
+						<div class="carousel-item">
+						<a href="img/IMG_9995.jpg" data-lightbox="gallery"><img class="d-block w-100" src="img/IMG_9995.jpg" alt="imagem 19"></a>
+						</div>
+						
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Próximo</span>
+					</a>
 				</div>
-				<!--/.Slides-->
-
-			</div>
-			<!--/.Carousel Wrapper-->
-		</div>
+			!-->
+			
+			<!--Nova galeria-->
+			<!--provisorio <section class="paw-carousel-wrap">
+					<div class="paw-carousel">
+						<div class="paw-carousel-items-wrap">
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_0009.jpg" data-src-2x="img/IMG_0009.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_0027.jpg" data-src-2x="img/IMG_0027.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_0048.jpg" data-src-2x="img/IMG_0048.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_0086.jpg" data-src-2x="img/IMG_0086.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_1077.jpg" data-src-2x="img/IMG_1077.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_1086.jpg" data-src-2x="img/IMG_1086.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_1118.jpg" data-src-2x="img/IMG_1118.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_1148.jpg" data-src-2x="img/IMG_1148.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_1195.jpg" data-src-2x="img/IMG_1195.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_1236.jpg" data-src-2x="img/IMG_1236.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_1315.jpg" data-src-2x="img/IMG_1315.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_9691.jpg" data-src-2x="img/IMG_9691.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_9706.jpg" data-src-2x="img/IMG_9706.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_9845.jpg" data-src-2x="img/IMG_9845.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_9856.jpg" data-src-2x="img/IMG_9856.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_9869.jpg" data-src-2x="img/IMG_9869.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_9911.jpg" data-src-2x="img/IMG_9911.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_9963.jpg" data-src-2x="img/IMG_9963.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div>
+							<div class="paw-carousel-item">
+								<img src="paw/public/images/x.gif" data-src="img/IMG_9995.jpg" data-src-2x="img/IMG_9995.jpg" width="494" height="300" class="paw-carousel-item-media">
+								
+							</div> fim provisorio 
+							
+						</div>
+						
+						<a href="#" class="paw-carousel-prev"><img src="paw/public/images/arr-prev.svg" alt="Previous"></a>
+						<a href="#" class="paw-carousel-next"><img src="paw/public/images/arr-next.svg" alt="Next"></a>
+						Left and right translucent masks - simply remove if not required 
+						<div class="paw-carousel-mask paw-carousel-mask-l hide-med"></div>
+						<div class="paw-carousel-mask paw-carousel-mask-r hide-med"></div>
+					</div>
+				</section>!-->
+				<!-- fim nova galeria !-->
+				
 	
 </div>
 <!-- Fim Galeria !-->
@@ -448,21 +493,21 @@
 		<div class="row espaco-rodape">
 			<div class="col-md-4 text-center">
 				<div class="row espaco-span">
-					<div class="col-sm-1 icone-rodape"><i class="fas fa-phone-alt yellow"></i></div>
+					<div class="col-sm-1 icone-rodape"><i class="fas fa-phone-alt amarelo"></i></div>
 					<div class="col-sm-11 text-left">
 						<span><strong>Contato</strong></span><span>(13) 3385-2500</span>
 					</div>
 				</div>
 				<div class="row espaco-span">
-					<div class="col-sm-1 icone-rodape"><i class="far fa-clock yellow"></i></div>
+					<div class="col-sm-1 icone-rodape"><i class="far fa-clock amarelo"></i></div>
 					<div class="col-sm-11 text-left">
 						<span><strong>Funcionamento</strong></span><span>Ter - Dom | 18h às 23h</span>
 					</div>
 				</div>			
 				<div class="row espaco-span">
-					<div class="col-sm-1 icone-rodape"><i class="fab fa-whatsapp yellow"></i></div>	
+					<div class="col-sm-1 icone-rodape"><i class="fab fa-whatsapp amarelo"></i></div>	
 					<div class="col-sm-11 text-left">
-					<a href="https://wa.me/5513991239149" class="txt-branco"><span><strong>Peça pelo What's</strong></span></a><span>(13)33-000</span>
+					<a href="https://wa.me/551333852500" class="txt-branco"><span><strong>Peça pelo What's</strong></span></a><span>(13)3385-2500</span>
 					</div>
 				</div>
 			</div>
@@ -471,9 +516,9 @@
 				<p class="text-center bemvindo-rodape txt-branco">Seja bem vindo(a) ao nosso <strong>Bungalow</strong> e bom apetite</p>
 			</div>
 			<div class="col-md-4 text-center ">
-				<a href="https://www.instagram.com/bungalowsushi/"><i class="fab fa-instagram fa-2x yellow sociais-rodape"></i></a>
-				<a href="https://wa.me/5513991239149"><i class="fab fa-whatsapp fa-2x yellow sociais-rodape"></i></a>
-				<a href="https://www.facebook.com/bungalowsushi/?ref=py_c"><i class="fab fa-facebook-square fa-2x yellow sociais-rodape"></i></a>
+				<a href="https://www.instagram.com/bungalowsushi/"><i class="fab fa-instagram fa-2x amarelo sociais-rodape"></i></a>
+				<a href="https://wa.me/5513991239149"><i class="fab fa-whatsapp fa-2x amarelo sociais-rodape"></i></a>
+				<a href="https://www.facebook.com/bungalowsushi/?ref=py_c"><i class="fab fa-facebook-square fa-2x amarelo sociais-rodape"></i></a>
 			</div>
 		</div>
 	</div>
@@ -485,6 +530,18 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="paw/public/js/pawcarousel.jquery.min.js"></script>
+	<script>
+	$(function(){
+		$('.paw-carousel').pawCarousel();
+		// If you want to add another carousel on the same page
+		//$('.paw-carousel-2').pawCarousel();
+	});
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+	<script src="lightbox/src/js/lightbox.js"></script>
 	<script src="script.js"></script>
 </body>
 </html>
